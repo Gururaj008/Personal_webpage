@@ -2,11 +2,6 @@ import streamlit as st
 import webbrowser 
 from PIL import Image
 
-
-
-
-
-
 if __name__ == "__main__":
     st.set_page_config(page_title='Gururaj\'s webpage')
     col1,col2,col3 = st.columns([1,3,1])
@@ -26,13 +21,13 @@ if __name__ == "__main__":
         st.write('')
         st.markdown('<div style="text-align: justify">After completing my Master of Technology in “Renewable energy” in 2019, I was looking for a way to further my research in “wind energy”, it was then I stumbled upon the field of Data science. I was fascinated by its real world applications and kindled the desire to be a "Data Scientist".  </div>', unsafe_allow_html=True)
     st.write('')
-    st.markdown('<div style="text-align: justify"> I have consistently excelled in my academic pursuits throughout my life. Project work carried out in the final semester of my bachelor\'s was recognized and funded by the premier research institute “Indian Institute of Science, Bengaluru” . Abstract of my master\'s dissertation was awarded runner-up at National seminar on “Innovation in Science and Engineering “ held by “National Academy of Science, India”.  <div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: justify"> I have consistently excelled in my academic pursuits throughout my life. Project work carried out in the final semester of my bachelor\'s was recognized and funded. Abstract of my master\'s dissertation was awarded runner-up at a National seminar.  <div>', unsafe_allow_html=True)
     st.write('')
-    st.markdown('<div style="text-align: justify"> While working as Senior Consultant at CapGemini consulting India Pvt. Ltd. for Alcatel-Lucent client based out of US my diligence at work was recognized and received the following - Pride of the team award, Bravo team award , Spot recognition award. Currently working as Lecturer, Department of Electrical & Electronics Engineering, Government polytechic. Seeking a comeback into the IT industry.  <div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: justify"> While working as Consultant at CapGemini consulting India Pvt. Ltd. for Alcatel-Lucent client based out of US my diligence at work was recognized and awarded. Currently working as Lecturer, Department of Electrical & Electronics Engineering, Government polytechic. Seeking a comeback into the IT industry.  <div>', unsafe_allow_html=True)
     st.write('')
     #st.markdown('<div style="text-align: justify"> <div>', unsafe_allow_html=True)
     #st.write('')
-    st.markdown('<div style="text-align: justify"> As a part of my research have authored "06 technical papers" which are published with reputed journals like "SPRINGER and IEEE", have also reviewed the manuscripts submitted for pulication with the likes of IEEE. <div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: justify"> As a part of my research have authored "06 technical papers" which are published with reputed journals like "SPRINGER and IEEE", have also reviewed the manuscripts submitted for publication with the likes of IEEE. <div>', unsafe_allow_html=True)
     
     st.write('')
     st.markdown('<div style="text-align: justify"> Other than my passion for data, I love to drive and being by the beach (they both soothe my soul). I would love to travel around the world, meet new people, learn different languages and experience new cultures.  I also enjoy watching sci-fi movies. My favourite superhero is "Ironman". I m a highly motivated and diligent individual with a desire to learn, grow and excel. </div>', unsafe_allow_html=True)
