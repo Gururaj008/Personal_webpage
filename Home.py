@@ -18,7 +18,7 @@ if __name__ == "__main__":
         st.write('')
         st.write('')
         st.write('')
-        image = Image.open('C:\MLCourse\Learning\Home_page\GR.jpg')
+        image = Image.open('GR.jpg')
         st.image(image)
         
     with col5:
@@ -61,7 +61,7 @@ if __name__ == "__main__":
     st.divider()
     col201,col202,col203,col204,col205 = st.columns([1,4,1,4,1])
     with col201:
-        image2 = Image.open('C:\MLCourse\Learning\Home_page\pic1.jpg')
+        image2 = Image.open('pic1.jpg')
         st.image(image2)
     with col202:
         text1 = "<div style='text-align: center;'>It is Not About How Much We have Lost,</div>"
@@ -69,13 +69,13 @@ if __name__ == "__main__":
         text2 = "<div style='text-align: center;'>It is About How Much We Have Left</div>"
         st.markdown(text2, unsafe_allow_html=True)
     with col203:
-        image3 = Image.open('C:\MLCourse\Learning\Home_page\pic2.jpg')
+        image3 = Image.open('pic2.jpg')
         st.image(image3)
     with col204:
         text3 = "<div style='text-align: center;'>Sometimes You Gotta Run Before You Can Walk</div>"
         st.markdown(text3, unsafe_allow_html=True)
     with col205:
-        image4 = Image.open('C:\MLCourse\Learning\Home_page\pic3.jpg')
+        image4 = Image.open('pic3.jpg')
         width = 750  # Desired width in pixels
         height = 720  # Desired height in pixels
         resized_image = image4.resize((width, height))
