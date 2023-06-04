@@ -2,21 +2,6 @@ import streamlit as st
 import webbrowser 
 from PIL import Image
 
-def open_diabetes_link():
-    link = "https://gururaj008-diabetes-prediction-diabetes-pred-5sop4d.streamlit.app/"
-    webbrowser.open(link)
-
-def open_fvsa_link():
-    link = "https://gururaj008-flipkart-or-amazon-fa-kxnbd3.streamlit.app/"
-    webbrowser.open(link)
-
-def open_phonepe_link():
-    link = "https://gururaj008-phonepe-deploy-p-s-ycgqnz.streamlit.app/"
-    webbrowser.open(link)
-
-
-
-
 if __name__ == '__main__':
     st.set_page_config(layout="wide")
     col8, col9, col10 = st.columns([1,5,1])
@@ -29,9 +14,12 @@ if __name__ == '__main__':
     st.write('')
     st.write('')
     st.write('')
-    col11, col12, col13 = st.columns([2,3,2])
+    col11, col12 = st.columns([2,8])
+    with col11:
+        st.markdown(':orange[Available at: ]')
     with col12:
-        st.button("Diabetes prediction using Health Indicators", on_click= open_diabetes_link,key=1)
+        st.markdown('https://gururaj008-diabetes-prediction-diabetes-pred-5sop4d.streamlit.app/')
+        
     st.divider()
     
     st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
@@ -42,9 +30,12 @@ if __name__ == '__main__':
     st.write('')
     st.write('')
     st.write('')
-    col14, col15, col16 = st.columns([2,9,2])
-    with col15:
-        st.button("Suggesting customer where to buy a specific product(Flipkart or Amazon)", on_click= open_fvsa_link,key=2)
+    col11, col12 = st.columns([2,8])
+    with col11:
+        st.markdown(':orange[Available at: ]')
+    with col12:
+        st.markdown('https://gururaj008-flipkart-or-amazon-fa-kxnbd3.streamlit.app/')
+        
     st.divider()
 
     col16, col17, col18 = st.columns([3,8,3])
@@ -57,9 +48,11 @@ if __name__ == '__main__':
     st.write('')
     st.write('')
     st.write('')
-    col11, col12, col13 = st.columns([2,3,2])
+    col11, col12 = st.columns([2,8])
+    with col11:
+        st.markdown(':orange[Available at: ]')
     with col12:
-        st.button("Phonepe pulse data visualization", on_click= open_phonepe_link,key=3)
+        st.markdown('https://gururaj008-phonepe-deploy-p-s-ycgqnz.streamlit.app/')
     st.divider()
     
 
