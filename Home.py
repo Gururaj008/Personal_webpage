@@ -6,7 +6,7 @@ if __name__ == "__main__":
     st. set_page_config(layout="wide")
     col1,col2,col3 = st.columns([1,3,1])
     with col2:
-        st.header(':aquamarine[Welcome to my webpage]')
+        st.header(':blue[Welcome to my webpage]')
     st.divider()
     col4, col5 = st.columns([1,5], gap='medium')
     with col4:
@@ -36,7 +36,7 @@ if __name__ == "__main__":
         st.write('')
         st.write('')
         st.write('')
-        st.markdown('I believe in :aquamarine[**"No dream is too big and no dreamer is too small"**]')
+        st.markdown('I believe in :green[**"No dream is too big and no dreamer is too small"**]')
         st.write('')
         st.write('')
         st.write('')
