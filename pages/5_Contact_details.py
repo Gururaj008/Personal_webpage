@@ -2,7 +2,7 @@ import streamlit as st
 
 col301, col302, col303 = st.columns([2,6,2])
 with col302:
-    st.subheader(':green[**DEVELOPER CONTACT DETAILS**]')
+    st.subheader(':cyan[**DEVELOPER CONTACT DETAILS**]')
 st.divider()
 st.markdown(":orange[email id:] gururaj008@gmail.com")
 st.write('')
@@ -22,4 +22,4 @@ st.write('')
 st.write('')
 col901, col902, col903 = st.columns(3)
 with col903:
-    st.markdown('_An_ _effort_ _by_ : :blue[**MAVERICK_GR**]')
+    st.markdown('_An_ _effort_ _by_ : :red[**MAVERICK_GR**]')
