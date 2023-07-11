@@ -226,7 +226,7 @@ if __name__ == '__main__':
     st.write('')
     col901, col902, col903 = st.columns(3)
     with col903:
-        st.markdown('_An_ _effort_ _by_ : :cyan[**MAVERICK_GR**]')
+        st.markdown('_An_ _effort_ _by_ : :green[**MAVERICK_GR**]')
     
     
     # st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
