@@ -5,7 +5,7 @@ from PIL import Image
 if __name__ == '__main__':
     st.set_page_config(layout="wide")
 
-    col33, col34, col35 = st.columns([3,30,3])
+    col33, col34, col35 = st.columns([3,50,3])
     with col34:
         st.subheader(':orange[**Exploratory Data Analysis on wind data for Chitradurga,India**]')
     st.write('')
@@ -18,10 +18,10 @@ if __name__ == '__main__':
     st.markdown('<div style="text-align: justify">The only thing that is constant with wind is change hence; we need to analyze the effect of prevailing weather conditions on wind speed season-wise, month-wise, day-wise and hour-wise. This is exactly what I have tried to achieve in this project by plotting 80 different plots capturing every minute detail present in the dataset, clearly indicating what effect each weather condition has on wind speed.  </div>', unsafe_allow_html=True)
     st.write('')
     st.write('')
-    col36, col77 = st.columns([2,8])
+    col36, col37 = st.columns([2,8])
     with col36:
         st.markdown(':orange[Hosted online at: ]')
-    with col17:
+    with col37:
         st.markdown('https://gururaj008-cta-wind-data-eda.streamlit.app/')
     st.divider()
 
@@ -32,10 +32,10 @@ if __name__ == '__main__':
     st.write('')
     st.markdown('<div style="text-align: justify"> Given the details of cell nuclei taken from breast mass, predict whether or not a patient has breast cancer using the Ensembling Techniques. Perform necessary exploratory data analysis before building the model and evaluate the model based on performance metrics other than model accuracy. </div>', unsafe_allow_html=True)
     st.write('')
-    col25, col26 = st.columns([2,8])
-    with col27:
+    col26, col27 = st.columns([2,8])
+    with col26:
         st.markdown(':orange[Jupyter notebook and a comprehensive report on the project available at: ]')
-    with col28:
+    with col27:
         st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Breast%20Cancer%20in%20a%20patient')
     st.divider()
 
@@ -46,15 +46,15 @@ if __name__ == '__main__':
     st.write('')
     st.markdown('<div style="text-align: justify"> Predict if a customer subscribes to a term deposits or not, when contacted by a marketing agent, by understanding the different features and performing predictive analytics </div>', unsafe_allow_html=True)
     st.write('')
-    col31, col32 = st.columns([2,8])
-    with col31:
-        st.markdown(':orange[Jupyter notebook and a comprehensive report on the project available at: ]')
+    col33, col33 = st.columns([2,8])
     with col32:
+        st.markdown(':orange[Jupyter notebook and a comprehensive report on the project available at: ]')
+    with col33:
         st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Term%20Deposit%20Subscription')
     st.divider()
 
-    col18, col19, col20 = st.columns([3,15,3])
-    with col19:
+    col19, col20, col21 = st.columns([3,15,3])
+    with col20:
         st.subheader(':orange[**Extracting Business card data with OCR**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> A business card is a small printed card that typically contains an individual\'s or a company\'s contact information, such as name, job title, address, phone number, email address, and website. It serves as a tangible representation of professional identity and acts as a convenient networking tool.</div>', unsafe_allow_html=True)
