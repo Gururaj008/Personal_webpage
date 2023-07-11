@@ -25,7 +25,7 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-cta-wind-data-eda.streamlit.app/')
     st.divider()
 
-    col23, col24, col25 = st.columns([3,100,3])
+    col23, col24, col25 = st.columns([3,130,3])
     with col24:
         st.subheader(':orange[**Predicting Breast Cancer in a patient using SVM and ensemble techniques**]')
     st.subheader(':orange[**Problem statement**]')
@@ -135,7 +135,7 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-diabetes-prediction-diabetes-pred-5sop4d.streamlit.app/') 
     st.divider()
     
-    col1008, col1009, col1010 = st.columns([5,100,5])
+    col1008, col1009, col1010 = st.columns([5,130,5])
     with col1009:
         st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
     st.write('')
