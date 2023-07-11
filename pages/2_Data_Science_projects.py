@@ -33,6 +33,8 @@ if __name__ == '__main__':
     st.markdown('<div style="text-align: justify"> Given the details of cell nuclei taken from breast mass, predict whether or not a patient has breast cancer using the Ensembling Techniques. Perform necessary exploratory data analysis before building the model and evaluate the model based on performance metrics other than model accuracy. </div>', unsafe_allow_html=True)
     st.write('')
     col26, col27 = st.columns([2,8])
+    st.write('')
+    st.write('')
     with col26:
         st.markdown(':orange[Jupyter notebook and a comprehensive report on the project available at: ]')
     with col27:
@@ -47,6 +49,8 @@ if __name__ == '__main__':
     st.markdown('<div style="text-align: justify"> Predict if a customer subscribes to a term deposits or not, when contacted by a marketing agent, by understanding the different features and performing predictive analytics </div>', unsafe_allow_html=True)
     st.write('')
     col33, col33 = st.columns([2,8])
+    st.write('')
+    st.write('')
     with col32:
         st.markdown(':orange[Jupyter notebook and a comprehensive report on the project available at: ]')
     with col33:
