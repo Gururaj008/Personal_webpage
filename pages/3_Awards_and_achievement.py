@@ -1,4 +1,5 @@
 import streamlit as st
+st. set_page_config(layout="wide")
 col501,col502,col503 = st.columns([5,8,5])
 with col502:
     st.subheader(':orange[Awards and achivements]')
@@ -77,7 +78,7 @@ st.write('')
 st.write('')
 col901, col902, col903 = st.columns(3)
 with col903:
-        st.markdown('_An_ _effort_ _by_ : :green[**MAVERICK_GR**]')   
+        st.markdown('_An_ _effort_ _by_ : :blue[**MAVERICK_GR**]')   
     
     
     
