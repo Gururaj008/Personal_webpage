@@ -25,7 +25,7 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-cta-wind-data-eda.streamlit.app/')
     st.divider()
 
-    col23, col24, col25 = st.columns([3,130,3])
+    col23, col24, col25 = st.columns([1,150,1])
     with col24:
         st.subheader(':orange[**Predicting Breast Cancer in a patient using SVM,ensemble techniques**]')
         
@@ -44,7 +44,7 @@ if __name__ == '__main__':
         st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Breast%20Cancer%20in%20a%20patient')
     st.divider()
 
-    col29, col30, col31 = st.columns([15,50,15])
+    col29, col30, col31 = st.columns([15,80,15])
     with col30:
         st.subheader(':orange[**Predicting Term deposit subscription by a client**]')
     st.subheader(':orange[**Problem statement**]')
