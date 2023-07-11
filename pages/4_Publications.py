@@ -3,6 +3,7 @@ import webbrowser
 from PIL import Image
 
 if __name__ == '__main__':
+    st. set_page_config(layout="wide")
     col101, col102, col103 = st.columns([8,8,8])
     with col102:
         st.subheader(':orange[Publications]')
@@ -84,4 +85,4 @@ if __name__ == '__main__':
     st.write('')
     col901, col902, col903 = st.columns(3)
     with col903:
-        st.markdown('_An_ _effort_ _by_ : :Aquamarine[**MAVERICK_GR**]')
+        st.markdown('_An_ _effort_ _by_ : :red[**MAVERICK_GR**]')
