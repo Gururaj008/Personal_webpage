@@ -25,7 +25,7 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-cta-wind-data-eda.streamlit.app/')
     st.divider()
 
-     col23, col24, col25 = st.columns([3,15,3])
+    col23, col24, col25 = st.columns([3,15,3])
     with col24:
         st.subheader(':orange[**Predicting Breast Cancer in a patient**]')
     st.subheader(':orange[**Problem statement**]')
