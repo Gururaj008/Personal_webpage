@@ -59,7 +59,7 @@ with col513:
     st.write('')
     col901, col902, col903 = st.columns(3)
     with col903:
-        st.markdown('_An_ _effort_ _by_ : :blue[**MAVERICK_GR**]')   
+        st.markdown('_An_ _effort_ _by_ : :yellow[**MAVERICK_GR**]')   
     
     
     
