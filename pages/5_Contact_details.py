@@ -1,4 +1,5 @@
 import streamlit as st
+st. set_page_config(layout="wide")
 
 col301, col302, col303 = st.columns([2,6,2])
 with col302:
