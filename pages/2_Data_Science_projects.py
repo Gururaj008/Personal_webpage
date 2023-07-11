@@ -27,7 +27,8 @@ if __name__ == '__main__':
 
     col23, col24, col25 = st.columns([3,130,3])
     with col24:
-        st.subheader(':orange[**Predicting Breast Cancer in a patient using SVM and ensemble techniques**]')
+        st.subheader(':orange[**Predicting Breast Cancer in a patient using SVM,ensemble techniques**]')
+        
     st.subheader(':orange[**Problem statement**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> Given the details of cell nuclei taken from breast mass, predict whether or not a patient has breast cancer using the Ensembling Techniques. Perform necessary exploratory data analysis before building the model and evaluate the model based on performance metrics other than model accuracy. </div>', unsafe_allow_html=True)
@@ -43,7 +44,7 @@ if __name__ == '__main__':
         st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Breast%20Cancer%20in%20a%20patient')
     st.divider()
 
-    col29, col30, col31 = st.columns([3,50,3])
+    col29, col30, col31 = st.columns([15,50,15])
     with col30:
         st.subheader(':orange[**Predicting Term deposit subscription by a client**]')
     st.subheader(':orange[**Problem statement**]')
@@ -61,7 +62,7 @@ if __name__ == '__main__':
         st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Term%20Deposit%20Subscription')
     st.divider()
 
-    col19, col20, col21 = st.columns([3,15,3])
+    col19, col20, col21 = st.columns([15,50,15])
     with col20:
         st.subheader(':orange[**Extracting Business card data with OCR**]')
     st.write('')
