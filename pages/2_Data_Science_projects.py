@@ -25,9 +25,9 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-cta-wind-data-eda.streamlit.app/')
     st.divider()
 
-    col23, col24, col25 = st.columns([3,15,3])
+    col23, col24, col25 = st.columns([3,50,3])
     with col24:
-        st.subheader(':orange[**Predicting Breast Cancer in a patient**]')
+        st.subheader(':orange[**Predicting Breast Cancer in a patient using SVM and ensemble techniques**]')
     st.subheader(':orange[**Problem statement**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> Given the details of cell nuclei taken from breast mass, predict whether or not a patient has breast cancer using the Ensembling Techniques. Perform necessary exploratory data analysis before building the model and evaluate the model based on performance metrics other than model accuracy. </div>', unsafe_allow_html=True)
@@ -45,7 +45,7 @@ if __name__ == '__main__':
 
     col29, col30, col31 = st.columns([3,15,3])
     with col30:
-        st.subheader(':orange[**Predicting Term deposit**]')
+        st.subheader(':orange[**Predicting Term deposit subscription by a client **]')
     st.subheader(':orange[**Problem statement**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> Predict if a customer subscribes to a term deposits or not, when contacted by a marketing agent, by understanding the different features and performing predictive analytics </div>', unsafe_allow_html=True)
@@ -136,7 +136,7 @@ if __name__ == '__main__':
     st.divider()
     
     col1008, col1009, col1010 = st.columns([1,5,1])
-    with col009:
+    with col1009:
         st.subheader(':orange[**Diabetes prediction using health indicators**]')
     st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
     st.write('')
@@ -146,7 +146,7 @@ if __name__ == '__main__':
     st.write('')
     st.write('')
     st.write('')
-    col1011, col102 = st.columns([2,8])
+    col1011, col1012 = st.columns([2,8])
     with col1011:
         st.markdown(':orange[Available at: ]')
     with col1012:
