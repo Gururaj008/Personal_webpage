@@ -4,38 +4,73 @@ from PIL import Image
 
 if __name__ == '__main__':
     st.set_page_config(layout="wide")
-    col8, col9, col10 = st.columns([1,5,1])
-    with col9:
-        st.subheader(':orange[**Diabetes prediction using health indicators**]')
+
+    col33, col34, col35 = st.columns([3,30,3])
+    with col34:
+        st.subheader(':orange[**Exploratory Data Analysis on wind data for Chitradurga,India**]')
     st.write('')
-    st.markdown('<div style="text-align: justify"> Diabetes is a chronic medical condition characterized by elevated blood sugar levels due to either insufficient insulin production or ineffective use of insulin by the body. It has a significant global impact, with an estimated 463 million adults living with diabetes worldwide. The condition can lead to various complications, including cardiovascular disease, kidney damage, nerve damage, and vision impairment. Diabetes can affect the quality of life by requiring daily management, including monitoring blood sugar levels, taking medication or insulin, and following a healthy diet and exercise regimen. It poses a risk for long-term health complications and can increase the likelihood of premature death. Furthermore, the economic burden of diabetes is substantial, with healthcare costs, lost productivity, and reduced quality of life affecting individuals, families, and healthcare systems globally. Early detection, proper management, and lifestyle modifications are crucial in preventing complications and improving the overall well-being of individuals with diabetes.</div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: justify"> Being born and raised in Chitradurga which is one the largest wind energy producers in all of India, right from my early childhood had the inclination and passion towards wind energy. Following the passion pursued my Bachelors in "Electrical & Electronics Engineering" and my Masters in "Renewable Energy" leading to 06 technical publications with Springer, IEEE and other Scopus indexed journals.</div>', unsafe_allow_html=True)
     st.write('')
-    st.markdown('<div style="text-align: justify"> Detecting diabetes at an early stage is crucial as it allows for timely intervention and management, helping to prevent or delay complications and improve long-term health outcomes. Hence, developed a machine learning model using SVC, KNN classifier, Bagging classifier, Gradient boosting classifier and Random forest classifier and used a voting classifier on top of them to aggregate the result. </div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: justify"> After finishing my Masters in 2019, I was looking for ways to further my research in "Wind Energy", that is when I stumbled upon the field of "Data Science" and have fallen in love with it ever since.</div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> The dataset to carry out this research activity was taken from MERRA-2 meteorological data. The timeframe considered is 2002-2022 in which there is one data point for every 10 minutes accounting for total of more than 1 Million data points. Each data point consists of information regarding pertaining weather conditions-Timestamp, Temperature, Solar irradiation, Relative humidity, Pressure, Snowfall, Snow depth, Wind direction and finally Wind speed. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify">The only thing that is constant with wind is change hence; we need to analyze the effect of prevailing weather conditions on wind speed season-wise, month-wise, day-wise and hour-wise. This is exactly what I have tried to achieve in this project by plotting 80 different plots capturing every minute detail present in the dataset, clearly indicating what effect each weather condition has on wind speed.  </div>', unsafe_allow_html=True)
     st.write('')
     st.write('')
-    st.write('')
-    col11, col12 = st.columns([2,8])
-    with col11:
-        st.markdown(':orange[Available at: ]')
-    with col12:
-        st.markdown('https://gururaj008-diabetes-prediction-diabetes-pred-5sop4d.streamlit.app/')
-        
+    col36, col77 = st.columns([2,8])
+    with col36:
+        st.markdown(':orange[Hosted online at: ]')
+    with col17:
+        st.markdown('https://gururaj008-cta-wind-data-eda.streamlit.app/')
     st.divider()
-    
-    st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
+
+     col23, col24, col25 = st.columns([3,15,3])
+    with col24:
+        st.subheader(':orange[**Predicting Breast Cancer in a patient**]')
+    st.subheader(':orange[**Problem statement**]')
     st.write('')
-    st.markdown('<div style="text-align: justify"> The Indian e-commerce industry has been driven by increasing mobile phone adoption and is estimated to be $75 billion in 2022 and has the potential to expand up to $111 billion by 2024 and $200 billion by 2026. Amazon and Flipkart account for more than 60 percent of the Indian e-commerce market. The offers and discounts offered by each of them vary based on the festive season and special sale on specific date and time. </div>', unsafe_allow_html=True)
+    st.markdown('<div style="text-align: justify"> Given the details of cell nuclei taken from breast mass, predict whether or not a patient has breast cancer using the Ensembling Techniques. Perform necessary exploratory data analysis before building the model and evaluate the model based on performance metrics other than model accuracy. </div>', unsafe_allow_html=True)
     st.write('')
-    st.markdown('<div style="text-align: justify"> The primary aim of this project is to help customer buy a specific product from the e-commerce market places like Flipkart and Amazon. The suggestion made is based on the selling price of the product and the amount of discount offered so that the customer ends up spending less on buying the product. </div>', unsafe_allow_html=True)
+    col25, col26 = st.columns([2,8])
+    with col27:
+        st.markdown(':orange[Jupyter notebook and a comprehensive report on the project available at: ]')
+    with col28:
+        st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Breast%20Cancer%20in%20a%20patient')
+    st.divider()
+
+    col29, col30, col31 = st.columns([3,15,3])
+    with col30:
+        st.subheader(':orange[**Predicting Term deposit**]')
+    st.subheader(':orange[**Problem statement**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Predict if a customer subscribes to a term deposits or not, when contacted by a marketing agent, by understanding the different features and performing predictive analytics </div>', unsafe_allow_html=True)
+    st.write('')
+    col31, col32 = st.columns([2,8])
+    with col31:
+        st.markdown(':orange[Jupyter notebook and a comprehensive report on the project available at: ]')
+    with col32:
+        st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Term%20Deposit%20Subscription')
+    st.divider()
+
+    col18, col19, col20 = st.columns([3,15,3])
+    with col19:
+        st.subheader(':orange[**Extracting Business card data with OCR**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> A business card is a small printed card that typically contains an individual\'s or a company\'s contact information, such as name, job title, address, phone number, email address, and website. It serves as a tangible representation of professional identity and acts as a convenient networking tool.</div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> OCR stands for Optical Character Recognition. It is a technology that enables the conversion of printed or handwritten text into digital form by scanning and analyzing images or documents. The significance of OCR lies in its ability to automate and streamline various processes that involve the extraction and interpretation of textual information. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> EasyOCR is an open-source Python library that provides a simple yet powerful Optical Character Recognition (OCR) solution. It allows developers to extract text from images or scanned documents effortlessly. EasyOCR supports more than 80 languages, making it a versatile tool for various applications and industries. One of the key advantages of EasyOCR is its ease of use. It offers a straightforward API, enabling developers to integrate OCR functionality into their applications with minimal coding effort. The library handles the complexities of text recognition, including text localization, character segmentation, and recognition, simplifying the overall development process. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify">  Objective of this project is to leverage the abilities of EasyOCR to extract the information from business card, store it in a database for future retreival and usage. Hence, avoiding manual data entry.</div>', unsafe_allow_html=True)
     st.write('')
     st.write('')
-    st.write('')
-    col11, col12 = st.columns([2,8])
-    with col11:
-        st.markdown(':orange[Available at: ]')
-    with col12:
-        st.markdown('https://gururaj008-flipkart-or-amazon-fa-kxnbd3.streamlit.app/')
-        
+    col21, col22 = st.columns([2,8])
+    with col21:
+        st.markdown(':orange[Code available at: ]')
+    with col22:
+        st.markdown('https://github.com/Gururaj008/Business_card_data/')
     st.divider()
 
     col16, col17, col18 = st.columns([3,8,3])
@@ -55,7 +90,7 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-phonepe-deploy-p-s-ycgqnz.streamlit.app/')
     st.divider()
 
-    col13, col14, col15 = st.columns([3,8,3])
+    col13, col14, col15 = st.columns([3,15,3])
     with col14:
         st.subheader(':orange[**Youtube Data harvesting and warehousing**]')
     st.write('')
@@ -72,10 +107,88 @@ if __name__ == '__main__':
     with col16:
         st.markdown(':orange[Code available at: ]')
     with col17:
-        st.markdown('https://github.com/Gururaj008/Youtube_project/tree/main')
+        st.markdown('https://github.com/Gururaj008/Youtube_project/')
     st.divider()
     
+    col8, col9, col10 = st.columns([1,5,1])
+    with col9:
+        st.subheader(':orange[**Diabetes prediction using health indicators**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Diabetes is a chronic medical condition characterized by elevated blood sugar levels due to either insufficient insulin production or ineffective use of insulin by the body. It has a significant global impact, with an estimated 463 million adults living with diabetes worldwide. The condition can lead to various complications, including cardiovascular disease, kidney damage, nerve damage, and vision impairment. Diabetes can affect the quality of life by requiring daily management, including monitoring blood sugar levels, taking medication or insulin, and following a healthy diet and exercise regimen. It poses a risk for long-term health complications and can increase the likelihood of premature death. Furthermore, the economic burden of diabetes is substantial, with healthcare costs, lost productivity, and reduced quality of life affecting individuals, families, and healthcare systems globally. Early detection, proper management, and lifestyle modifications are crucial in preventing complications and improving the overall well-being of individuals with diabetes.</div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Detecting diabetes at an early stage is crucial as it allows for timely intervention and management, helping to prevent or delay complications and improve long-term health outcomes. Hence, developed a machine learning model using SVC, KNN classifier, Bagging classifier, Gradient boosting classifier and Random forest classifier and used a voting classifier on top of them to aggregate the result. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.write('')
+    st.write('')
+    col11, col12 = st.columns([2,8])
+    with col11:
+        st.markdown(':orange[Available at: ]')
+    with col12:
+        st.markdown('https://gururaj008-diabetes-prediction-diabetes-pred-5sop4d.streamlit.app/') 
+    st.divider()
+    
+    col1008, col1009, col1010 = st.columns([1,5,1])
+    with col009:
+        st.subheader(':orange[**Diabetes prediction using health indicators**]')
+    st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> The Indian e-commerce industry has been driven by increasing mobile phone adoption and is estimated to be $75 billion in 2022 and has the potential to expand up to $111 billion by 2024 and $200 billion by 2026. Amazon and Flipkart account for more than 60 percent of the Indian e-commerce market. The offers and discounts offered by each of them vary based on the festive season and special sale on specific date and time. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> The primary aim of this project is to help customer buy a specific product from the e-commerce market places like Flipkart and Amazon. The suggestion made is based on the selling price of the product and the amount of discount offered so that the customer ends up spending less on buying the product. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.write('')
+    st.write('')
+    col1011, col102 = st.columns([2,8])
+    with col1011:
+        st.markdown(':orange[Available at: ]')
+    with col1012:
+        st.markdown('https://gururaj008-flipkart-or-amazon-fa-kxnbd3.streamlit.app/')
+    st.divider()
 
+    
+    
+   
+    
+
+    # col18, col19, col20 = st.columns([3,15,3])
+    # with col19:
+    #     st.subheader(':orange[**Extracting Business card data with OCR**]')
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.write('')
+    # col16, col17 = st.columns([2,8])
+    # with col16:
+    #     st.markdown(':orange[Code available at: ]')
+    # with col17:
+    #     st.markdown('https://github.com/Gururaj008/Youtube_project/tree/main')
+    # st.divider()
+
+    # col18, col19, col20 = st.columns([3,15,3])
+    # with col19:
+    #     st.subheader(':orange[**Extracting Business card data with OCR**]')
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.write('')
+    # col16, col17 = st.columns([2,8])
+    # with col16:
+    #     st.markdown(':orange[Code available at: ]')
+    # with col17:
+    #     st.markdown('https://github.com/Gururaj008/Youtube_project/tree/main')
+    # st.divider()
     
     
     
@@ -106,10 +219,10 @@ if __name__ == '__main__':
     st.write('')
     col901, col902, col903 = st.columns(3)
     with col903:
-        st.markdown('_An_ _effort_ _by_ : :blue[**MAVERICK_GR**]')
+        st.markdown('_An_ _effort_ _by_ : :cyan[**MAVERICK_GR**]')
     
     
-    st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
-    st.write('')
+    # st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
+    # st.write('')
