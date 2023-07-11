@@ -9,7 +9,7 @@ st.write('')
 col514, col515 = st.columns([2,8])
 with col514:
     st.markdown(':orange[At Guvi, IIT-Madras]')
-with col513:
+with col515:
     st.markdown('<div style="text-align: justify"> Stood "First" in the cumilative test conducted at the end of the Data Science course </div>', unsafe_allow_html=True)
 
 col512, col513 = st.columns([2,8])
