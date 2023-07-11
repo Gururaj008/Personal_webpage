@@ -25,7 +25,7 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-cta-wind-data-eda.streamlit.app/')
     st.divider()
 
-    col23, col24, col25 = st.columns([3,50,3])
+    col23, col24, col25 = st.columns([3,80,3])
     with col24:
         st.subheader(':orange[**Predicting Breast Cancer in a patient using SVM and ensemble techniques**]')
     st.subheader(':orange[**Problem statement**]')
@@ -43,14 +43,14 @@ if __name__ == '__main__':
         st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Breast%20Cancer%20in%20a%20patient')
     st.divider()
 
-    col29, col30, col31 = st.columns([3,15,3])
+    col29, col30, col31 = st.columns([3,50,3])
     with col30:
-        st.subheader(':orange[**Predicting Term deposit subscription by a client **]')
+        st.subheader(':orange[**Predicting Term deposit subscription by a client**]')
     st.subheader(':orange[**Problem statement**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> Predict if a customer subscribes to a term deposits or not, when contacted by a marketing agent, by understanding the different features and performing predictive analytics </div>', unsafe_allow_html=True)
     st.write('')
-    col32, col33 = st.columns([20,20])
+    col32, col33 = st.columns([15,30])
     st.write('')
     st.write('')
     st.write('')
@@ -135,10 +135,9 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-diabetes-prediction-diabetes-pred-5sop4d.streamlit.app/') 
     st.divider()
     
-    col1008, col1009, col1010 = st.columns([1,5,1])
+    col1008, col1009, col1010 = st.columns([5,50,5])
     with col1009:
-        st.subheader(':orange[**Diabetes prediction using health indicators**]')
-    st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
+        st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> The Indian e-commerce industry has been driven by increasing mobile phone adoption and is estimated to be $75 billion in 2022 and has the potential to expand up to $111 billion by 2024 and $200 billion by 2026. Amazon and Flipkart account for more than 60 percent of the Indian e-commerce market. The offers and discounts offered by each of them vary based on the festive season and special sale on specific date and time. </div>', unsafe_allow_html=True)
     st.write('')
