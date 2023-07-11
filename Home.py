@@ -6,7 +6,7 @@ if __name__ == "__main__":
     st. set_page_config(layout="wide")
     col1,col2,col3 = st.columns([1,3,1])
     with col2:
-        st.header(':blue[Welcome to my webpage]')
+        st.header(':aquamarine[Welcome to my webpage]')
     st.divider()
     col4, col5 = st.columns([1,5], gap='medium')
     with col4:
