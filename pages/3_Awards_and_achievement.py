@@ -11,6 +11,8 @@ with col514:
     st.markdown(':orange[At Guvi, IIT-Madras]')
 with col515:
     st.markdown('<div style="text-align: justify"> Stood "First" in the cumilative test conducted at the end of the Data Science course </div>', unsafe_allow_html=True)
+st.write('')
+st.write('')
 
 col512, col513 = st.columns([2,8])
 with col512:
@@ -21,6 +23,8 @@ with col513:
     st.markdown('<div style="text-align: justify"> Reviewed the manuscripts submitted for publication with IEEE </div>', unsafe_allow_html=True)
     st.write('')
     st.markdown('<div style="text-align: justify"> Consistently recieved "Excellent" rating from students with respect to content preparation and delivery </div>', unsafe_allow_html=True)
+st.write('')
+st.write('')
 
 col508, col509 = st.columns([2,8])
 with col508:
@@ -29,6 +33,7 @@ with col509:
     st.markdown('<div style="text-align: justify"> Received the “Certificate of Appreciation” for outstanding academic performance in the year 2018-19. Abstract dissertation was awarded runner-up at National seminar on “ Innovation in Science and Engineering “ held by “National Academy of Science, India” . Completed the degree with "First Class with Distinction" grade. </div>', unsafe_allow_html=True)
 st.write('')
 st.write('')
+
 col510, col511 = st.columns([2,8])
 with col510:
     st.markdown(':orange[At Capgemini]')
@@ -71,7 +76,7 @@ st.write('')
 st.write('')
 col901, col902, col903 = st.columns(3)
 with col903:
-        st.markdown('_An_ _effort_ _by_ : :orange[**MAVERICK_GR**]')   
+        st.markdown('_An_ _effort_ _by_ : :green[**MAVERICK_GR**]')   
     
     
     
