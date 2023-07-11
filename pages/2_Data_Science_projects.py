@@ -54,6 +54,26 @@ if __name__ == '__main__':
     with col12:
         st.markdown('https://gururaj008-phonepe-deploy-p-s-ycgqnz.streamlit.app/')
     st.divider()
+
+    col13, col14, col15 = st.columns([3,8,3])
+    with col14:
+        st.subheader(':orange[**Youtube Data harvesting and warehousing**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> YouTube is a widely popular online video-sharing platform owned by Google, allowing users to upload, watch, and share videos. With over 2 billion logged-in monthly active users, YouTube has a global reach and supports multiple languages. It receives an astonishing amount of video content, with approximately 500 hours of video uploaded per minute, resulting in over 1 billion hours of daily video views. YouTube\'s influence on culture and society is significant, providing a platform for content creators to share knowledge, entertainment, and diverse perspectives. It has enabled individuals to build successful careers and monetize their content through ads, sponsorships, and partnerships. YouTube has also played a crucial role in supporting educational initiatives, activism, and community engagement. Additionally, YouTube offers a premium subscription service called YouTube Premium, which provides ad-free viewing, offline access, and exclusive original content. Overall, YouTube continues to shape the digital landscape, impacting how we consume and interact with video content. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Data harvesting, in simple terms, refers to the process of collecting or gathering large amounts of data from various sources, often using automated methods or tools. It involves extracting, compiling, and storing data from different websites, databases, or digital platforms. Data harvesting can be performed for various purposes, such as market research, data analysis, creating databases, or building machine learning models. The collected data may include information like text, images, videos, user profiles, product details, or any other relevant data points depending on the objective. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Data warehousing refers to the process of collecting, organizing, and storing large volumes of structured and/or unstructured data from various sources into a centralized repository. It involves combining data from different operational systems, databases, and external sources to create a comprehensive and integrated view of an organization\'s data. The purpose of a data warehouse is to provide a unified, consistent, and historical view of data that can be used for business intelligence, analytics, reporting, and decision-making. It serves as a central repository where data from multiple sources is extracted, transformed, and loaded (ETL) to ensure consistency, quality, and accessibility. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> The objective of this project is to make API calls to YouTube and fetch channels, videos and comments information. User is provided with 15 different channel ids, out of which he/she can choose upto 10 channel ids for information retrieval.  The data retrieved is in NoSQL format, which is displayed and user is provided with option to push the data to MongDB and PostgreSQL. Later, SQL queries are made to retrieve, display and visualize some interesting facts about the channels, videos and comments. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.write('')
+    col16, col17 = st.columns([2,8])
+    with col16:
+        st.markdown(':orange[Code available at: ]')
+    with col17:
+        st.markdown('https://github.com/Gururaj008/Youtube_project/tree/main')
+    st.divider()
     
 
     
