@@ -47,18 +47,19 @@ with col511:
 st.write('')
 st.write('')
 
-col504, col505 = st.columns([2,8])
-with col504:
-    st.markdown(':orange[During schooling]')
-with col505:
-    st.markdown('Stood first in class contistently throught out')
-st.write('')
-st.write('')
 col506, col507 = st.columns([2,8])
 with col506:
     st.markdown(':orange[During Bachelor\'s]')
 with col507:
     st.markdown('<div style="text-align: justify"> Project work carried out in the final semester was recognized and funded by the premier research institute “Indian Institute of Science, Bengaluru”. Completed the degree with "First Class with Distinction" grade. </div>', unsafe_allow_html=True)
+st.write('')
+st.write('')
+
+col504, col505 = st.columns([2,8])
+with col504:
+    st.markdown(':orange[During schooling]')
+with col505:
+    st.markdown('Stood first in class contistently throught out')
 st.write('')
 st.write('')
 
