@@ -6,7 +6,13 @@ if __name__ == "__main__":
     st. set_page_config(layout="wide")
     col1,col2,col3 = st.columns([1,3,1])
     with col2:
-        st.header(':blue[Welcome to my webpage]')
+        st.markdown("""
+                    <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Agdasima');
+                    .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
+                    </style>
+                    <p class="custom-text">Welcome to Gururaj's webpage</p>
+                    """, unsafe_allow_html=True)
     st.divider()
     col4, col5 = st.columns([1,5], gap='medium')
     with col4:
