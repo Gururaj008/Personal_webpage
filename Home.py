@@ -4,9 +4,7 @@ from PIL import Image
 
 if __name__ == "__main__":
     st. set_page_config(layout="wide")
-    col1,col2,col3 = st.columns([1,3,1])
-    with col2:
-        st.markdown("""
+    st.markdown("""
                     <style>
                     @import url('https://fonts.googleapis.com/css2?family=Agdasima');
                     .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
