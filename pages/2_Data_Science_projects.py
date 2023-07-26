@@ -4,7 +4,13 @@ from PIL import Image
 
 if __name__ == '__main__':
     st.set_page_config(layout="wide")
-
+    st.markdown("""
+                    <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Agdasima');
+                    .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
+                    </style>
+                    <p class="custom-text"> Data Science projects carried out</p>
+                    """, unsafe_allow_html=True)
     col33, col34, col35 = st.columns([3,50,3])
     with col34:
         st.subheader(':orange[**Exploratory Data Analysis on wind data for Chitradurga,India**]')
