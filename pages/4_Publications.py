@@ -4,9 +4,16 @@ from PIL import Image
 
 if __name__ == '__main__':
     st. set_page_config(layout="wide")
+    st.markdown("""
+                    <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Agdasima');
+                    .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
+                    </style>
+                    <p class="custom-text"> Publications </p>
+                    """, unsafe_allow_html=True)
+    st.divider()
     col101, col102, col103 = st.columns([8,8,8])
     with col102:
-        st.subheader(':orange[Publications]')
     st.write('')
     st.write('')
     st.markdown(':orange[**Self-Sustaining Community for a Green Future—A Case Study**]')
