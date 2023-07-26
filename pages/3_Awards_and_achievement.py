@@ -2,7 +2,13 @@ import streamlit as st
 st. set_page_config(layout="wide")
 col501,col502,col503 = st.columns([5,8,5])
 with col502:
-    st.subheader(':orange[Awards and achivements]')
+    st.markdown("""
+                    <style>
+                    @import url('https://fonts.googleapis.com/css2?family=Agdasima');
+                    .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
+                    </style>
+                    <p class="custom-text"> Awards and achievements</p>
+                    """, unsafe_allow_html=True)
 
 st.write('')
 st.write('')
