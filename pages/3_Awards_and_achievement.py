@@ -1,18 +1,14 @@
 import streamlit as st
 st. set_page_config(layout="wide")
-col501,col502,col503 = st.columns([5,8,5])
-with col502:
-    st.markdown("""
+st.markdown("""
                     <style>
                     @import url('https://fonts.googleapis.com/css2?family=Agdasima');
                     .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
                     </style>
                     <p class="custom-text"> Awards and achievements</p>
                     """, unsafe_allow_html=True)
+st.divider()
 
-st.write('')
-st.write('')
-st.write('')
 col514, col515 = st.columns([2,8])
 with col514:
     st.markdown(':orange[At Guvi, IIT-Madras]')
