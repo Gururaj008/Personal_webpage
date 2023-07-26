@@ -65,5 +65,9 @@ with col1004:
 with col1005:
    st.image('6.jpg')
 
+col1006, col1007, col1008 = st.columns(3)
+with col1007:
+    st.markdown('_An_ _effort_ _by_ : :blue[**MAVERICK_GR**]')
+
 
 
