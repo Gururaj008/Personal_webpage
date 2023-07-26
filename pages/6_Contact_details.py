@@ -7,15 +7,40 @@ st.markdown("""
                     </style>
                     <p class="custom-text">Developer contact details</p>
                     """, unsafe_allow_html=True)
-col301, col302, col303 = st.columns([2,6,2])
+st.divider()
+col301, col302 = st.columns([10,20])
+with col301:
+  st.markdown(":orange[email id:]")
+  st.write('')
 with col302:
-  st.markdown(":orange[email id:] gururaj008@gmail.com")
+  st.markdown(":yellow[gururaj008@gmail.com]")
   st.write('')
-  st.markdown(":orange[Personal webpage hosting other Datascience projects :] http://gururaj008.pythonanywhere.com/")
+
+col301, col302 = st.columns([10,20])
+with col301:
+  st.markdown(":orange[Personal webpage hosting other Datascience projects :]")
   st.write('')
-  st.markdown(":orange[LinkedIn profile :] https://www.linkedin.com/in/gururaj-hc-machine-learning-enthusiast/")
+with col302:
+  st.markdown(":yellow[http://gururaj008.pythonanywhere.com/]")
   st.write('')
-  st.markdown(":orange[Github link:] https://github.com/Gururaj008 ")
+
+col301, col302 = st.columns([10,20])
+with col301:
+  st.markdown(":orange[LinkedIn profile :]")
+  st.write('')
+with col302:
+  st.markdown(":yellow[https://www.linkedin.com/in/gururaj-hc-data-science-enthusiast/]")
+  st.write('')
+
+
+col301, col302 = st.columns([10,20])
+with col301:
+  st.markdown(":orange[Github link:]")
+  st.write('')
+with col302:
+  st.markdown(":yellow[https://github.com/Gururaj008]")
+  st.write('')
+
 
 st.write('')
 st.write('')
