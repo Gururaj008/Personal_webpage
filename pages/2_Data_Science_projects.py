@@ -12,9 +12,9 @@ if __name__ == '__main__':
                     <p class="custom-text"> Data Science projects carried out</p>
                     """, unsafe_allow_html=True)
     st.divider()
-    col33, col34, col35 = st.columns([3,50,3])
-    with col34:
-        st.subheader(':orange[**Exploratory Data Analysis on wind data for Chitradurga,India**]')
+    # col33, col34, col35 = st.columns([3,100,3])
+    # with col34:
+    st.subheader(':orange[**Exploratory Data Analysis on wind data for Chitradurga,India**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> Being born and raised in Chitradurga which is one the largest wind energy producers in all of India, right from my early childhood had the inclination and passion towards wind energy. Following the passion pursued my Bachelors in "Electrical & Electronics Engineering" and my Masters in "Renewable Energy" leading to 06 technical publications with Springer, IEEE and other Scopus indexed journals.</div>', unsafe_allow_html=True)
     st.write('')
@@ -32,10 +32,10 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-cta-wind-data-eda.streamlit.app/')
     st.divider()
 
-    col23, col24, col25 = st.columns([1,150,1])
-    with col24:
-        st.subheader(':orange[**Predicting Breast Cancer in a patient using SVM,ensemble techniques**]')
-        
+    # col23, col24, col25 = st.columns([1,150,1])
+    # with col24:
+    st.subheader(':orange[**Predicting Breast Cancer in a patient using SVM,ensemble techniques**]')
+    st.write('')    
     st.subheader(':orange[**Problem statement**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> Given the details of cell nuclei taken from breast mass, predict whether or not a patient has breast cancer using the Ensembling Techniques. Perform necessary exploratory data analysis before building the model and evaluate the model based on performance metrics other than model accuracy. </div>', unsafe_allow_html=True)
@@ -51,9 +51,10 @@ if __name__ == '__main__':
         st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Breast%20Cancer%20in%20a%20patient')
     st.divider()
 
-    col29, col30, col31 = st.columns([15,80,15])
-    with col30:
-        st.subheader(':orange[**Predicting Term deposit subscription by a client**]')
+    # col29, col30, col31 = st.columns([15,80,15])
+    # with col30:
+    st.subheader(':orange[**Predicting Term deposit subscription by a client**]')
+    st.write('')
     st.subheader(':orange[**Problem statement**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> Predict if a customer subscribes to a term deposits or not, when contacted by a marketing agent, by understanding the different features and performing predictive analytics </div>', unsafe_allow_html=True)
@@ -69,9 +70,9 @@ if __name__ == '__main__':
         st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Term%20Deposit%20Subscription')
     st.divider()
 
-    col19, col20, col21 = st.columns([15,50,15])
-    with col20:
-        st.subheader(':orange[**Extracting Business card data with OCR**]')
+    # col19, col20, col21 = st.columns([15,50,15])
+    # with col20:
+    st.subheader(':orange[**Extracting Business card data with OCR**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> A business card is a small printed card that typically contains an individual\'s or a company\'s contact information, such as name, job title, address, phone number, email address, and website. It serves as a tangible representation of professional identity and acts as a convenient networking tool.</div>', unsafe_allow_html=True)
     st.write('')
@@ -89,9 +90,9 @@ if __name__ == '__main__':
         st.markdown('https://github.com/Gururaj008/Business_card_data/')
     st.divider()
 
-    col16, col17, col18 = st.columns([3,8,3])
-    with col17:
-        st.subheader(':orange[**Phonepe pulse data visualization**]')
+    # col16, col17, col18 = st.columns([3,8,3])
+    # with col17:
+    st.subheader(':orange[**Phonepe pulse data visualization**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> PhonePe Private Limited is a leading e-commerce payment platform in India. The digital wallet company was founded in December 2015. This platform offers services in over 11 Indian regional languages. As a user, you can use the app and book cabs, book hotel services, order food online, pay for your Redbus tickets, and also pay for your flight tickets. You can carry out transactions in the PhonPe app by following any of these methods: UPI Debit Card, UPI Credit Card, Via linked Bank account and using PhonePe Wallet. </div>', unsafe_allow_html=True)
     st.write('')
@@ -106,9 +107,9 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-phonepe-deploy-p-s-ycgqnz.streamlit.app/')
     st.divider()
 
-    col13, col14, col15 = st.columns([3,15,3])
-    with col14:
-        st.subheader(':orange[**Youtube Data harvesting and warehousing**]')
+    # col13, col14, col15 = st.columns([3,15,3])
+    # with col14:
+    st.subheader(':orange[**Youtube Data harvesting and warehousing**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> YouTube is a widely popular online video-sharing platform owned by Google, allowing users to upload, watch, and share videos. With over 2 billion logged-in monthly active users, YouTube has a global reach and supports multiple languages. It receives an astonishing amount of video content, with approximately 500 hours of video uploaded per minute, resulting in over 1 billion hours of daily video views. YouTube\'s influence on culture and society is significant, providing a platform for content creators to share knowledge, entertainment, and diverse perspectives. It has enabled individuals to build successful careers and monetize their content through ads, sponsorships, and partnerships. YouTube has also played a crucial role in supporting educational initiatives, activism, and community engagement. Additionally, YouTube offers a premium subscription service called YouTube Premium, which provides ad-free viewing, offline access, and exclusive original content. Overall, YouTube continues to shape the digital landscape, impacting how we consume and interact with video content. </div>', unsafe_allow_html=True)
     st.write('')
@@ -126,9 +127,9 @@ if __name__ == '__main__':
         st.markdown('https://github.com/Gururaj008/Youtube_project/')
     st.divider()
     
-    col8, col9, col10 = st.columns([1,5,1])
-    with col9:
-        st.subheader(':orange[**Diabetes prediction using health indicators**]')
+    # col8, col9, col10 = st.columns([1,5,1])
+    # with col9:
+    st.subheader(':orange[**Diabetes prediction using health indicators**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> Diabetes is a chronic medical condition characterized by elevated blood sugar levels due to either insufficient insulin production or ineffective use of insulin by the body. It has a significant global impact, with an estimated 463 million adults living with diabetes worldwide. The condition can lead to various complications, including cardiovascular disease, kidney damage, nerve damage, and vision impairment. Diabetes can affect the quality of life by requiring daily management, including monitoring blood sugar levels, taking medication or insulin, and following a healthy diet and exercise regimen. It poses a risk for long-term health complications and can increase the likelihood of premature death. Furthermore, the economic burden of diabetes is substantial, with healthcare costs, lost productivity, and reduced quality of life affecting individuals, families, and healthcare systems globally. Early detection, proper management, and lifestyle modifications are crucial in preventing complications and improving the overall well-being of individuals with diabetes.</div>', unsafe_allow_html=True)
     st.write('')
@@ -143,9 +144,9 @@ if __name__ == '__main__':
         st.markdown('https://gururaj008-diabetes-prediction-diabetes-pred-5sop4d.streamlit.app/') 
     st.divider()
     
-    col1008, col1009, col1010 = st.columns([5,130,5])
-    with col1009:
-        st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
+    # col1008, col1009, col1010 = st.columns([5,130,5])
+    # with col1009:
+    st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
     st.write('')
     st.markdown('<div style="text-align: justify"> The Indian e-commerce industry has been driven by increasing mobile phone adoption and is estimated to be $75 billion in 2022 and has the potential to expand up to $111 billion by 2024 and $200 billion by 2026. Amazon and Flipkart account for more than 60 percent of the Indian e-commerce market. The offers and discounts offered by each of them vary based on the festive season and special sale on specific date and time. </div>', unsafe_allow_html=True)
     st.write('')
