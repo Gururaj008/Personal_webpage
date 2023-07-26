@@ -1,15 +1,14 @@
 import streamlit as st
 st. set_page_config(layout="wide")
-col301, col302, col303 = st.columns([2,6,2])
-with col302:
-    st.markdown("""
+st.markdown("""
                     <style>
                     @import url('https://fonts.googleapis.com/css2?family=Agdasima');
                     .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
                     </style>
                     <p class="custom-text">Developer contact details</p>
                     """, unsafe_allow_html=True)
-st.divider()
+col301, col302, col303 = st.columns([2,6,2])
+with col302:
 st.markdown(":orange[email id:] gururaj008@gmail.com")
 st.write('')
 st.markdown(":orange[Personal webpage hosting other Datascience projects :] http://gururaj008.pythonanywhere.com/")
