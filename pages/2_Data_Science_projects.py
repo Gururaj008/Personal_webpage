@@ -28,9 +28,9 @@ if __name__ == '__main__':
     st.divider()
     
     col40, col41 = st.columns([2,8])
-    with col38:
+    with col40:
         st.markdown(':orange[Hosted online at: ]')
-    with col39:
+    with col41:
         st.markdown('https://gururaj-hc-questionandanswer-generation.streamlit.app/')
     st.divider() 
     
