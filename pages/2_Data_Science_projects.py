@@ -11,6 +11,62 @@ if __name__ == '__main__':
                     </style>
                     <p class="custom-text"> Data Science projects carried out</p>
                     """, unsafe_allow_html=True)
+    
+    st.divider()
+    # col33, col34, col35 = st.columns([3,100,3])
+    # with col34:
+    st.subheader(':orange[**Q&A generation using LLM**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Creating multiple-choice questions based on a given paragraph offers students a multifaceted approach to learning. It not only deepens comprehension by requiring them to distil key concepts and main ideas, but also engages them actively in the material, fostering a stronger grasp of the subject matter. This process encourages critical thinking as students formulate plausible distracters that challenge their own understanding and uncover potential misconceptions. Moreover, the skill of crafting questions cultivates the practical application of acquired knowledge, bridging the gap between theory and real-world scenarios. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> As students compare their questions to model answers, they engage in meaningful self-assessment, identifying areas of strength and those in need of review. This exercise mirrors the format of assessments, thus aiding in effective test preparation. Beyond assessment, the act of generating questions prompts students to organize information logically, strengthening their ability to structure thoughts coherently. Collaborative sharing of questions with peers and educators initiates a valuable feedback loop, refining their understanding and enhancing communication skills. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> This practice also nurtures vocabulary enrichment as students carefully select appropriate terminology. Ultimately, the process empowers students to take charge of their learning journey, cultivating autonomy and honing higher-order thinking skills. The lasting impact of question generation on long-term retention solidifies its role as a holistic tool for comprehensive understanding, effective study strategies, and academic growth. </div>', unsafe_allow_html=True)
+    st.write('')
+    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
+    # st.write('')
+    st.divider()
+    
+    col40, col41 = st.columns([2,8])
+    with col38:
+        st.markdown(':orange[Hosted online at: ]')
+    with col39:
+        st.markdown('https://gururaj-hc-questionandanswer-generation.streamlit.app/')
+    st.divider() 
+    
+    st.divider()
+    # col33, col34, col35 = st.columns([3,100,3])
+    # with col34:
+    st.subheader(':orange[**Industrial Copper Modelling**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> This project involves sales and pricing prediction pertaining to Copper manufacturing industry. the data suffers from issues such as skewness and noise which can affect the accuracy of manual predictions. Dealing with these challenges manually can be time-consuming and may not result in optimal pricing decisions. A machine learning regression model can address these issues by utilizing advanced techniques such as data normalization, feature scaling, and outlier detection, and leveraging algorithms that are robust to skewed and noisy data.</div>', unsafe_allow_html=True)
+    st.write('')
+    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
+    # st.write('')
+    st.divider()
+    
+    col38, col39 = st.columns([2,8])
+    with col38:
+        st.markdown(':orange[Hosted online at: ]')
+    with col39:
+        st.markdown('https://gururaj-hc-industrial-copper-modelling.streamlit.app/')
+    st.divider()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     st.divider()
     # col33, col34, col35 = st.columns([3,100,3])
     # with col34:
