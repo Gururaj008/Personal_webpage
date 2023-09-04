@@ -26,7 +26,7 @@ if __name__ == '__main__':
     st.write('')
     # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
     # st.write('')
-    st.divider()
+    #st.divider()
     
     col42, col43 = st.columns([2,8])
     with col42:
@@ -49,7 +49,7 @@ if __name__ == '__main__':
     
     # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
     # st.write('')
-    st.divider()
+    #st.divider()
     
     col40, col41 = st.columns([2,8])
     with col40:
@@ -78,7 +78,7 @@ if __name__ == '__main__':
     # st.write('')
     # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
     # st.write('')
-    st.divider()
+    #st.divider()
     
     col38, col39 = st.columns([2,8])
     with col38:
