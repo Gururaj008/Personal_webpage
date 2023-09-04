@@ -27,12 +27,42 @@ if __name__ == '__main__':
     # st.write('')
     st.divider()
     
+    col42, col43 = st.columns([2,8])
+    with col42:
+        st.markdown(':orange[Hosted online at: ]')
+    with col43:
+        st.markdown('https://gururaj-hc-questionandanswer-generation.streamlit.app/')
+    st.divider() 
+
+    st.divider()
+    # col33, col34, col35 = st.columns([3,100,3])
+    # with col34:
+    st.subheader(':orange[**Crop recommendation engine**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Farmers play a pivotal role in India, where agriculture has been the backbone of the nation\'s economy and culture for centuries. Their significance cannot be overstated, as they are the primary source of food production for a vast and diverse population. India\'s agrarian sector not only provides sustenance but also contributes significantly to the country\'s GDP and employment. Farmers are custodians of the land, responsible for its fertility and sustainability. They embrace traditional wisdom while also adopting modern agricultural practices, striving to meet the growing demands of a burgeoning population. Their resilience in the face of various challenges, including adverse weather conditions and market fluctuations, is commendable. Moreover, they are the custodians of India\'s rich biodiversity, preserving countless indigenous crops and varieties. The importance of farmers in India extends beyond economic contributions, encompassing social and cultural dimensions, making them the backbone of the nation\'s identity and progress. Recognizing and supporting their efforts is crucial for ensuring food security, economic stability, and the overall well-being of the country.  </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Artificial Intelligence (AI) holds immense potential to revolutionize agriculture and significantly benefit farmers. Through AI-powered technologies, farmers can access valuable insights and data-driven solutions that enhance crop management, optimize resource allocation, and improve overall productivity. AI can analyze vast amounts of data, including weather patterns, soil quality, and crop health, to provide precise recommendations on when to plant, irrigate, and harvest. Machine learning models can predict disease outbreaks and pest infestations, enabling early intervention and reducing crop losses. Moreover, AI-driven automation can streamline tasks such as harvesting and sorting, reducing labor costs and ensuring efficiency. AI-powered drones and sensors can monitor fields in real-time, helping farmers make informed decisions promptly. In essence, AI empowers farmers with the tools and knowledge needed to make agriculture more sustainable, efficient, and resilient in the face of the evolving challenges of modern farming.  </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Recommending crop choices for farmers based on soil and weather conditions is of paramount importance in modern agriculture. These recommendations not only optimize crop yield and quality but also contribute significantly to sustainable and efficient farming practices. Soil quality and composition can vary widely even within a single region, and selecting the right crop that matches the soil\'s characteristics ensures optimal growth and reduces the need for excessive fertilizers or chemicals. Weather conditions, including rainfall patterns and temperature fluctuations, play a crucial role in determining crop success. Providing farmers with accurate and timely recommendations based on these factors helps mitigate risks associated with adverse weather events and climate change. Ultimately, tailoring crop choices to local soil and weather conditions not only boosts agricultural productivity but also promotes resource conservation and environmental sustainability, making it a key component of modern, responsible farming practices. </div>', unsafe_allow_html=True)
+    st.write('')
+    
+    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
+    # st.write('')
+    st.divider()
+    
     col40, col41 = st.columns([2,8])
     with col40:
         st.markdown(':orange[Hosted online at: ]')
     with col41:
-        st.markdown('https://gururaj-hc-questionandanswer-generation.streamlit.app/')
+        st.markdown('https://crop-recommendation-engine-by-gururaj-hc.streamlit.app/')
     st.divider() 
+
+
+
+
+
+
+    
     
     st.divider()
     # col33, col34, col35 = st.columns([3,100,3])
