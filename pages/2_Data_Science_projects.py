@@ -147,10 +147,6 @@ if __name__ == '__main__':
     st.markdown('<div style="text-align: justify"> Predict if a customer subscribes to a term deposits or not, when contacted by a marketing agent, by understanding the different features and performing predictive analytics </div>', unsafe_allow_html=True)
     st.write('')
     col32, col33 = st.columns([15,30])
-    st.write('')
-    st.write('')
-    st.write('')
-    st.write('')
     with col32:
         st.markdown(':orange[Jupyter notebook and a comprehensive report on the project available at: ]')
     with col33:
@@ -189,7 +185,7 @@ if __name__ == '__main__':
     st.write('')
     col11, col12 = st.columns([2,8])
     with col11:
-        st.markdown(':orange[Available at: ]')
+        st.markdown(':orange[Hosted online at: ]')
     with col12:
         st.markdown('https://gururaj008-phonepe-deploy-p-s-ycgqnz.streamlit.app/')
     st.divider()
@@ -226,7 +222,7 @@ if __name__ == '__main__':
     st.write('')
     col11, col12 = st.columns([2,8])
     with col11:
-        st.markdown(':orange[Available at: ]')
+        st.markdown(':orange[Hosted online at: ]')
     with col12:
         st.markdown('https://gururaj008-diabetes-prediction-diabetes-pred-5sop4d.streamlit.app/') 
     st.divider()
@@ -243,7 +239,7 @@ if __name__ == '__main__':
     st.write('')
     col1011, col1012 = st.columns([2,8])
     with col1011:
-        st.markdown(':orange[Available at: ]')
+        st.markdown(':orange[Hosted online at: ]')
     with col1012:
         st.markdown('https://gururaj008-flipkart-or-amazon-fa-kxnbd3.streamlit.app/')
     st.divider()
