@@ -12,7 +12,8 @@ if __name__ == '__main__':
                     <p class="custom-text"> Data Science projects carried out</p>
                     """, unsafe_allow_html=True)
     
-    st.divider()
+    st.write('')
+    st.write('')
     # col33, col34, col35 = st.columns([3,100,3])
     # with col34:
     st.subheader(':orange[**Q&A generation using LLM**]')
@@ -34,7 +35,7 @@ if __name__ == '__main__':
         st.markdown('https://gururaj-hc-questionandanswer-generation.streamlit.app/')
     st.divider() 
 
-    st.divider()
+    
     # col33, col34, col35 = st.columns([3,100,3])
     # with col34:
     st.subheader(':orange[**Crop recommendation engine**]')
@@ -64,7 +65,7 @@ if __name__ == '__main__':
 
     
     
-    st.divider()
+    
     # col33, col34, col35 = st.columns([3,100,3])
     # with col34:
     st.subheader(':orange[**Industrial Copper Modelling**]')
@@ -97,7 +98,7 @@ if __name__ == '__main__':
     
     
     
-    st.divider()
+    
     # col33, col34, col35 = st.columns([3,100,3])
     # with col34:
     st.subheader(':orange[**Exploratory Data Analysis on wind data for Chitradurga,India**]')
