@@ -11,6 +11,33 @@ if __name__ == '__main__':
                     </style>
                     <p class="custom-text"> Data Science projects carried out</p>
                     """, unsafe_allow_html=True)
+
+    st.write('')
+    st.write('')
+    # col33, col34, col35 = st.columns([3,100,3])
+    # with col34:
+    st.subheader(':orange[**SmartText Insight**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> The SmartText Insight project is an AI-powered tool designed to enhance document interaction by transforming static text files into dynamic, conversational resources. With support for PDF, DOCX, and TXT file formats, this application allows users to upload one or multiple documents, which are then processed using advanced natural language processing (NLP) techniques. The platform leverages the powerful Google DeepMind “Gemini-Pro” model to interpret context, while GoogleGenerativeAIEmbeddings create robust document embeddings that convert text into vectors, facilitating efficient and accurate information retrieval. To further improve performance, SmartText Insight utilizes the FAISS (Facebook AI Similarity Search) vector store, an indexing system known for its speed and scalability, making it suitable for large volumes of text. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> The application’s interface is user-friendly, offering step-by-step guidance for uploading files, processing text, and generating responses to user queries. Once the documents are indexed, users can input questions to receive contextually relevant and detailed responses in bullet points, enhancing readability and comprehension. The project is a practical application of generative AI and vector-based search, aimed at making document exploration more accessible, interactive, and insightful. This powerful solution streamlines the process of extracting information from lengthy or complex documents, enabling users to navigate large amounts of content and find relevant answers effortlessly. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
+    st.write('')
+    
+    # st.write('')
+    #st.divider()
+    
+    col44, col45 = st.columns([2,8])
+    with col44:
+        st.markdown(':orange[Hosted online at: ]')
+    with col45:
+        st.markdown('https://talk-to-your-data-by-gururaj-hc.streamlit.app/')
+    st.divider() 
+
+    
     
     st.write('')
     st.write('')
