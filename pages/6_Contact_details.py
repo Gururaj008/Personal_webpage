@@ -16,13 +16,13 @@ with col302:
   st.markdown("gururaj008@gmail.com")
   st.write('')
 
-col301, col302 = st.columns([10,20])
-with col301:
-  st.markdown(":orange[Personal webpage hosting other Datascience projects :]")
-  st.write('')
-with col302:
-  st.markdown("http://gururaj008.pythonanywhere.com/")
-  st.write('')
+# col301, col302 = st.columns([10,20])
+# with col301:
+#   st.markdown(":orange[Personal webpage hosting other Datascience projects :]")
+#   st.write('')
+# with col302:
+#   st.markdown("http://gururaj008.pythonanywhere.com/")
+#   st.write('')
 
 col301, col302 = st.columns([10,20])
 with col301:
