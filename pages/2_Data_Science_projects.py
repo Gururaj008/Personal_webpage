@@ -68,9 +68,9 @@ if __name__ == '__main__':
     st.write('')
     
     col50, col51 = st.columns([2,8])
-    with col44:
+    with col50:
         st.markdown(':orange[Hosted online at: ]')
-    with col45:
+    with col51:
         st.markdown('https://youtube-assistant-hc-gururaj.streamlit.app/')
     st.divider() 
 
