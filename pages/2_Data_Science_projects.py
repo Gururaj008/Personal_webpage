@@ -51,7 +51,7 @@ if __name__ == '__main__':
     with col46:
         st.markdown(':orange[Hosted online at: ]')
     with col47:
-        st.markdown('https://https://talk-to-your-csv-by-gururaj-hc.streamlit.app/')
+        st.markdown('https://talk-to-your-csv-by-gururaj-hc.streamlit.app/')
     st.divider() 
 
     st.write('')
