@@ -19,7 +19,7 @@ st.write('')
 
 col512, col513 = st.columns([2,8])
 with col512:
-    st.markdown(':orange[At Present work]')
+    st.markdown(':orange[While teaching]')
 with col513:
     st.markdown('<div style="text-align: justify"> Continuing my research in the field of "Wind energy" authored 06 technical papers which are published with SPRINGER, IEEE and other scopus indexed journals. </div>', unsafe_allow_html=True)
     st.write('')
