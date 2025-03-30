@@ -197,22 +197,22 @@ if __name__ == '__main__':
 
     
     
-    # col1008, col1009, col1010 = st.columns([5,130,5])
-    # with col1009:
-    st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
-    st.write('')
-    st.markdown('<div style="text-align: justify"> The Indian e-commerce industry has been driven by increasing mobile phone adoption and is estimated to be $75 billion in 2022 and has the potential to expand up to $111 billion by 2024 and $200 billion by 2026. Amazon and Flipkart account for more than 60 percent of the Indian e-commerce market. The offers and discounts offered by each of them vary based on the festive season and special sale on specific date and time. </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> The primary aim of this project is to help customer buy a specific product from the e-commerce market places like Flipkart and Amazon. The suggestion made is based on the selling price of the product and the amount of discount offered so that the customer ends up spending less on buying the product. </div>', unsafe_allow_html=True)
-    st.write('')
-    st.write('')
-    st.write('')
-    col1011, col1012 = st.columns([2,8])
-    with col1011:
-        st.markdown(':orange[Hosted online at: ]')
-    with col1012:
-        st.markdown('https://gururaj008-flipkart-or-amazon-fa-kxnbd3.streamlit.app/')
-    st.divider()
+    # # col1008, col1009, col1010 = st.columns([5,130,5])
+    # # with col1009:
+    # st.subheader(':orange[**Suggesting customer where to buy a specific product(Flipkart or Amazon)**]')
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> The Indian e-commerce industry has been driven by increasing mobile phone adoption and is estimated to be $75 billion in 2022 and has the potential to expand up to $111 billion by 2024 and $200 billion by 2026. Amazon and Flipkart account for more than 60 percent of the Indian e-commerce market. The offers and discounts offered by each of them vary based on the festive season and special sale on specific date and time. </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> The primary aim of this project is to help customer buy a specific product from the e-commerce market places like Flipkart and Amazon. The suggestion made is based on the selling price of the product and the amount of discount offered so that the customer ends up spending less on buying the product. </div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.write('')
+    # st.write('')
+    # col1011, col1012 = st.columns([2,8])
+    # with col1011:
+    #     st.markdown(':orange[Hosted online at: ]')
+    # with col1012:
+    #     st.markdown('https://gururaj008-flipkart-or-amazon-fa-kxnbd3.streamlit.app/')
+    # st.divider()
 
     
     # col18, col19, col20 = st.columns([3,15,3])
