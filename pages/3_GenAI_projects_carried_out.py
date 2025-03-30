@@ -9,7 +9,7 @@ if __name__ == '__main__':
                     @import url('https://fonts.googleapis.com/css2?family=Agdasima');
                     .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
                     </style>
-                    <p class="custom-text"> GenAI projects carried out</p>
+                    <p class="custom-text"> GenAI projects </p>
                     """, unsafe_allow_html=True)
 
     st.write('')
