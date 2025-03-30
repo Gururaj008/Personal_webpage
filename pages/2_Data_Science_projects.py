@@ -12,155 +12,8 @@ if __name__ == '__main__':
                     <p class="custom-text"> Data Science projects carried out</p>
                     """, unsafe_allow_html=True)
 
-    st.write('')
-    st.write('')
-    # col33, col34, col35 = st.columns([3,100,3])
-    # with col34:
-    st.subheader(':orange[**SmartText Insight**]')
-    st.write('')
-    st.markdown('<div style="text-align: justify"> The SmartText Insight project is an AI-powered tool designed to enhance document interaction by transforming static text files into dynamic, conversational resources. With support for PDF, DOCX, and TXT file formats, this application allows users to upload one or multiple documents, which are then processed using advanced natural language processing (NLP) techniques. The platform leverages the powerful Google DeepMind “Gemini-Pro” model to interpret context, while GoogleGenerativeAIEmbeddings create robust document embeddings that convert text into vectors, facilitating efficient and accurate information retrieval. To further improve performance, SmartText Insight utilizes the FAISS (Facebook AI Similarity Search) vector store, an indexing system known for its speed and scalability, making it suitable for large volumes of text. </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> The application’s interface is user-friendly, offering step-by-step guidance for uploading files, processing text, and generating responses to user queries. Once the documents are indexed, users can input questions to receive contextually relevant and detailed responses in bullet points, enhancing readability and comprehension. The project is a practical application of generative AI and vector-based search, aimed at making document exploration more accessible, interactive, and insightful. This powerful solution streamlines the process of extracting information from lengthy or complex documents, enabling users to navigate large amounts of content and find relevant answers effortlessly. </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify">  </div>', unsafe_allow_html=True)
-    st.write('')
-    
-    col44, col45 = st.columns([2,8])
-    with col44:
-        st.markdown(':orange[Hosted online at: ]')
-    with col45:
-        st.markdown('https://talk-to-your-data-by-gururaj-hc.streamlit.app/')
-    st.divider() 
-
-    st.write('')
-    st.write('')
-    # col33, col34, col35 = st.columns([3,100,3])
-    # with col34:
-    st.subheader(':orange[**Transforming Data into Conversational Wisdom**]')
-    st.write('')
-    st.markdown('<div style="text-align: justify"> This Streamlit application facilitates an interactive, conversational exploration of data stored in CSV files, allowing users to ask questions about the dataset and receive AI-driven insights in response. After uploading a CSV file, the user provides their OpenAI API key, which the app validates by attempting a test interaction. If the key is verified, the application initializes a conversational agent using OpenAI\'s language model to process user queries. The app also tracks conversation history, allowing the context of previous interactions to enhance the continuity of responses.</div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> The code includes a unique approach to data queries, integrating regular expressions to parse questions for specific column references, ensuring the agent considers user-defined columns in its analysis. If no column is specified, it defaults to the last selected one, fostering a smooth and intuitive question-answer experience. The app\'s responses are presented in a markdown format, using tables whenever possible for better readability. The code dynamically updates the conversation history and selected column, preserving context and refining responses based on prior interactions.</div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> To enhance usability, the application is styled with custom fonts and colors, providing a visually engaging and branded experience. The app guides users step-by-step—from data upload, API key entry, and question submission, to the iterative conversational query process—making data analysis accessible even for non-technical users.  </div>', unsafe_allow_html=True)
-    st.write('')
-     
-    col46, col47 = st.columns([2,8])
-    with col46:
-        st.markdown(':orange[Hosted online at: ]')
-    with col47:
-        st.markdown('https://talk-to-your-csv-by-gururaj-hc.streamlit.app/')
-    st.divider() 
-
-    st.write('')
-    st.write('')
-    # col33, col34, col35 = st.columns([3,100,3])
-    # with col34:
-    st.subheader(':orange[**Youtube assistant using Langchain and OPENAI**]')
-    st.write('')
-    st.markdown('<div style="text-align: justify"> This code creates a Streamlit application that serves as a YouTube content assistant by allowing users to ask questions about the content of a YouTube video and receive AI-generated responses based solely on the video\'s transcript. It uses Langchain and OpenAI\’s language model to process the video transcript, breaking it down into manageable text chunks that are transformed into vector embeddings and stored in a FAISS vector database. This database enables efficient similarity search, so when a user poses a question, the application can find the most relevant transcript chunks to construct an accurate answer.</div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> The application\’s workflow begins with the user providing a YouTube URL, an OpenAI API key, and a question. Using the YoutubeLoader class from Langchain, it loads the video transcript, which is then split into chunks by RecursiveCharacterTextSplitter. Each chunk is converted into embeddings via OpenAI\’s embedding model, and these embeddings are stored in a FAISS vector database. When a user asks a question, the app performs a similarity search on this database to locate the most pertinent transcript segments. These are passed to an OpenAI language model (text-davinci-003) in a prompt, formulated through PromptTemplate and executed with the LLMChain class, which generates a response based exclusively on the identified transcript chunks.</div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> The app\’s interface, designed with Streamlit, is styled for clarity and user-friendliness. It includes sections for entering the API key, YouTube URL, and user question, along with a button to initiate the answer retrieval process. Once the question is processed, the application presents the AI’s response in a text-wrapped format, making it easy to read. This design enables users to quickly extract specific information from YouTube videos, offering a practical tool for obtaining insights without needing to watch entire videos.</div>', unsafe_allow_html=True)
-    st.write('')
-    
-    col50, col51 = st.columns([2,8])
-    with col50:
-        st.markdown(':orange[Hosted online at: ]')
-    with col51:
-        st.markdown('https://youtube-assistant-hc-gururaj.streamlit.app/')
-    st.divider() 
-
-    st.write('')
-    st.write('')
-    # col33, col34, col35 = st.columns([3,100,3])
-    # with col34:
-    st.subheader(':orange[**Q&A generation using LLM**]')
-    st.write('')
-    st.markdown('<div style="text-align: justify"> Creating multiple-choice questions based on a given paragraph offers students a multifaceted approach to learning. It not only deepens comprehension by requiring them to distil key concepts and main ideas, but also engages them actively in the material, fostering a stronger grasp of the subject matter. This process encourages critical thinking as students formulate plausible distracters that challenge their own understanding and uncover potential misconceptions. Moreover, the skill of crafting questions cultivates the practical application of acquired knowledge, bridging the gap between theory and real-world scenarios. </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> As students compare their questions to model answers, they engage in meaningful self-assessment, identifying areas of strength and those in need of review. This exercise mirrors the format of assessments, thus aiding in effective test preparation. Beyond assessment, the act of generating questions prompts students to organize information logically, strengthening their ability to structure thoughts coherently. Collaborative sharing of questions with peers and educators initiates a valuable feedback loop, refining their understanding and enhancing communication skills. </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> This practice also nurtures vocabulary enrichment as students carefully select appropriate terminology. Ultimately, the process empowers students to take charge of their learning journey, cultivating autonomy and honing higher-order thinking skills. The lasting impact of question generation on long-term retention solidifies its role as a holistic tool for comprehensive understanding, effective study strategies, and academic growth. </div>', unsafe_allow_html=True)
-    st.write('')
-    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
-    # st.write('')
-    #st.divider()
-    
-    col42, col43 = st.columns([2,8])
-    with col42:
-        st.markdown(':orange[Hosted online at: ]')
-    with col43:
-        st.markdown('https://gururaj-hc-questionandanswer-generation.streamlit.app/')
-    st.divider() 
-
-    
-    # col33, col34, col35 = st.columns([3,100,3])
-    # with col34:
-    st.subheader(':orange[**Crop recommendation engine**]')
-    st.write('')
-    st.markdown('<div style="text-align: justify"> Farmers play a pivotal role in India, where agriculture has been the backbone of the nation\'s economy and culture for centuries. Their significance cannot be overstated, as they are the primary source of food production for a vast and diverse population. India\'s agrarian sector not only provides sustenance but also contributes significantly to the country\'s GDP and employment. Farmers are custodians of the land, responsible for its fertility and sustainability. They embrace traditional wisdom while also adopting modern agricultural practices, striving to meet the growing demands of a burgeoning population. Their resilience in the face of various challenges, including adverse weather conditions and market fluctuations, is commendable. Moreover, they are the custodians of India\'s rich biodiversity, preserving countless indigenous crops and varieties. The importance of farmers in India extends beyond economic contributions, encompassing social and cultural dimensions, making them the backbone of the nation\'s identity and progress. Recognizing and supporting their efforts is crucial for ensuring food security, economic stability, and the overall well-being of the country.  </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> Artificial Intelligence (AI) holds immense potential to revolutionize agriculture and significantly benefit farmers. Through AI-powered technologies, farmers can access valuable insights and data-driven solutions that enhance crop management, optimize resource allocation, and improve overall productivity. AI can analyze vast amounts of data, including weather patterns, soil quality, and crop health, to provide precise recommendations on when to plant, irrigate, and harvest. Machine learning models can predict disease outbreaks and pest infestations, enabling early intervention and reducing crop losses. Moreover, AI-driven automation can streamline tasks such as harvesting and sorting, reducing labor costs and ensuring efficiency. AI-powered drones and sensors can monitor fields in real-time, helping farmers make informed decisions promptly. In essence, AI empowers farmers with the tools and knowledge needed to make agriculture more sustainable, efficient, and resilient in the face of the evolving challenges of modern farming.  </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> Recommending crop choices for farmers based on soil and weather conditions is of paramount importance in modern agriculture. These recommendations not only optimize crop yield and quality but also contribute significantly to sustainable and efficient farming practices. Soil quality and composition can vary widely even within a single region, and selecting the right crop that matches the soil\'s characteristics ensures optimal growth and reduces the need for excessive fertilizers or chemicals. Weather conditions, including rainfall patterns and temperature fluctuations, play a crucial role in determining crop success. Providing farmers with accurate and timely recommendations based on these factors helps mitigate risks associated with adverse weather events and climate change. Ultimately, tailoring crop choices to local soil and weather conditions not only boosts agricultural productivity but also promotes resource conservation and environmental sustainability, making it a key component of modern, responsible farming practices. </div>', unsafe_allow_html=True)
-    st.write('')
-    
-    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
-    # st.write('')
-    #st.divider()
-    
-    col40, col41 = st.columns([2,8])
-    with col40:
-        st.markdown(':orange[Hosted online at: ]')
-    with col41:
-        st.markdown('https://crop-recommendation-engine-by-gururaj-hc.streamlit.app/')
-    st.divider() 
 
 
-
-
-
-
-    
-    
-    
-    # col33, col34, col35 = st.columns([3,100,3])
-    # with col34:
-    st.subheader(':orange[**Industrial Copper Modelling**]')
-    st.write('')
-    st.markdown('<div style="text-align: justify"> This project involves sales and pricing prediction pertaining to Copper manufacturing industry. the data suffers from issues such as skewness and noise which can affect the accuracy of manual predictions. Dealing with these challenges manually can be time-consuming and may not result in optimal pricing decisions. A machine learning regression model can address these issues by utilizing advanced techniques such as data normalization, feature scaling, and outlier detection, and leveraging algorithms that are robust to skewed and noisy data.</div>', unsafe_allow_html=True)
-    st.write('')
-    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
-    # st.write('')
-    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
-    # st.write('')
-    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
-    # st.write('')
-    #st.divider()
-    
-    col38, col39 = st.columns([2,8])
-    with col38:
-        st.markdown(':orange[Hosted online at: ]')
-    with col39:
-        st.markdown('https://gururaj-hc-industrial-copper-modelling.streamlit.app/')
-    st.divider()
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     # col33, col34, col35 = st.columns([3,100,3])
     # with col34:
     st.subheader(':orange[**Exploratory Data Analysis on wind data for Chitradurga,India**]')
@@ -215,25 +68,6 @@ if __name__ == '__main__':
         st.markdown('https://github.com/Gururaj008/IITMDSA_DW42DW43_Final-Projects/tree/main/Projects/Predicting%20Term%20Deposit%20Subscription')
     st.divider()
 
-    # col19, col20, col21 = st.columns([15,50,15])
-    # with col20:
-    st.subheader(':orange[**Extracting Business card data with OCR**]')
-    st.write('')
-    st.markdown('<div style="text-align: justify"> A business card is a small printed card that typically contains an individual\'s or a company\'s contact information, such as name, job title, address, phone number, email address, and website. It serves as a tangible representation of professional identity and acts as a convenient networking tool.</div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> OCR stands for Optical Character Recognition. It is a technology that enables the conversion of printed or handwritten text into digital form by scanning and analyzing images or documents. The significance of OCR lies in its ability to automate and streamline various processes that involve the extraction and interpretation of textual information. </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify"> EasyOCR is an open-source Python library that provides a simple yet powerful Optical Character Recognition (OCR) solution. It allows developers to extract text from images or scanned documents effortlessly. EasyOCR supports more than 80 languages, making it a versatile tool for various applications and industries. One of the key advantages of EasyOCR is its ease of use. It offers a straightforward API, enabling developers to integrate OCR functionality into their applications with minimal coding effort. The library handles the complexities of text recognition, including text localization, character segmentation, and recognition, simplifying the overall development process. </div>', unsafe_allow_html=True)
-    st.write('')
-    st.markdown('<div style="text-align: justify">  Objective of this project is to leverage the abilities of EasyOCR to extract the information from business card, store it in a database for future retreival and usage. Hence, avoiding manual data entry.</div>', unsafe_allow_html=True)
-    st.write('')
-    st.write('')
-    col21, col22 = st.columns([2,8])
-    with col21:
-        st.markdown(':orange[Code available at: ]')
-    with col22:
-        st.markdown('https://github.com/Gururaj008/Business_card_data/')
-    st.divider()
 
     # col16, col17, col18 = st.columns([3,8,3])
     # with col17:
@@ -288,6 +122,80 @@ if __name__ == '__main__':
     with col12:
         st.markdown('https://gururaj008-diabetes-prediction-diabetes-pred-5sop4d.streamlit.app/') 
     st.divider()
+
+
+
+     
+    # col33, col34, col35 = st.columns([3,100,3])
+    # with col34:
+    st.subheader(':orange[**Crop recommendation engine**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Farmers play a pivotal role in India, where agriculture has been the backbone of the nation\'s economy and culture for centuries. Their significance cannot be overstated, as they are the primary source of food production for a vast and diverse population. India\'s agrarian sector not only provides sustenance but also contributes significantly to the country\'s GDP and employment. Farmers are custodians of the land, responsible for its fertility and sustainability. They embrace traditional wisdom while also adopting modern agricultural practices, striving to meet the growing demands of a burgeoning population. Their resilience in the face of various challenges, including adverse weather conditions and market fluctuations, is commendable. Moreover, they are the custodians of India\'s rich biodiversity, preserving countless indigenous crops and varieties. The importance of farmers in India extends beyond economic contributions, encompassing social and cultural dimensions, making them the backbone of the nation\'s identity and progress. Recognizing and supporting their efforts is crucial for ensuring food security, economic stability, and the overall well-being of the country.  </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Artificial Intelligence (AI) holds immense potential to revolutionize agriculture and significantly benefit farmers. Through AI-powered technologies, farmers can access valuable insights and data-driven solutions that enhance crop management, optimize resource allocation, and improve overall productivity. AI can analyze vast amounts of data, including weather patterns, soil quality, and crop health, to provide precise recommendations on when to plant, irrigate, and harvest. Machine learning models can predict disease outbreaks and pest infestations, enabling early intervention and reducing crop losses. Moreover, AI-driven automation can streamline tasks such as harvesting and sorting, reducing labor costs and ensuring efficiency. AI-powered drones and sensors can monitor fields in real-time, helping farmers make informed decisions promptly. In essence, AI empowers farmers with the tools and knowledge needed to make agriculture more sustainable, efficient, and resilient in the face of the evolving challenges of modern farming.  </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> Recommending crop choices for farmers based on soil and weather conditions is of paramount importance in modern agriculture. These recommendations not only optimize crop yield and quality but also contribute significantly to sustainable and efficient farming practices. Soil quality and composition can vary widely even within a single region, and selecting the right crop that matches the soil\'s characteristics ensures optimal growth and reduces the need for excessive fertilizers or chemicals. Weather conditions, including rainfall patterns and temperature fluctuations, play a crucial role in determining crop success. Providing farmers with accurate and timely recommendations based on these factors helps mitigate risks associated with adverse weather events and climate change. Ultimately, tailoring crop choices to local soil and weather conditions not only boosts agricultural productivity but also promotes resource conservation and environmental sustainability, making it a key component of modern, responsible farming practices. </div>', unsafe_allow_html=True)
+    st.write('')
+    
+    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
+    # st.write('')
+    #st.divider()
+    
+    col40, col41 = st.columns([2,8])
+    with col40:
+        st.markdown(':orange[Hosted online at: ]')
+    with col41:
+        st.markdown('https://crop-recommendation-engine-by-gururaj-hc.streamlit.app/')
+    st.divider() 
+
+
+
+ 
+    
+    # col33, col34, col35 = st.columns([3,100,3])
+    # with col34:
+    st.subheader(':orange[**Industrial Copper Modelling**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> This project involves sales and pricing prediction pertaining to Copper manufacturing industry. the data suffers from issues such as skewness and noise which can affect the accuracy of manual predictions. Dealing with these challenges manually can be time-consuming and may not result in optimal pricing decisions. A machine learning regression model can address these issues by utilizing advanced techniques such as data normalization, feature scaling, and outlier detection, and leveraging algorithms that are robust to skewed and noisy data.</div>', unsafe_allow_html=True)
+    st.write('')
+    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
+    # st.write('')
+    # st.markdown('<div style="text-align: justify"> .</div>', unsafe_allow_html=True)
+    # st.write('')
+    #st.divider()
+    
+    col38, col39 = st.columns([2,8])
+    with col38:
+        st.markdown(':orange[Hosted online at: ]')
+    with col39:
+        st.markdown('https://gururaj-hc-industrial-copper-modelling.streamlit.app/')
+    st.divider()
+       
+    
+    
+    # col19, col20, col21 = st.columns([15,50,15])
+    # with col20:
+    st.subheader(':orange[**Extracting Business card data with OCR**]')
+    st.write('')
+    st.markdown('<div style="text-align: justify"> A business card is a small printed card that typically contains an individual\'s or a company\'s contact information, such as name, job title, address, phone number, email address, and website. It serves as a tangible representation of professional identity and acts as a convenient networking tool.</div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> OCR stands for Optical Character Recognition. It is a technology that enables the conversion of printed or handwritten text into digital form by scanning and analyzing images or documents. The significance of OCR lies in its ability to automate and streamline various processes that involve the extraction and interpretation of textual information. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify"> EasyOCR is an open-source Python library that provides a simple yet powerful Optical Character Recognition (OCR) solution. It allows developers to extract text from images or scanned documents effortlessly. EasyOCR supports more than 80 languages, making it a versatile tool for various applications and industries. One of the key advantages of EasyOCR is its ease of use. It offers a straightforward API, enabling developers to integrate OCR functionality into their applications with minimal coding effort. The library handles the complexities of text recognition, including text localization, character segmentation, and recognition, simplifying the overall development process. </div>', unsafe_allow_html=True)
+    st.write('')
+    st.markdown('<div style="text-align: justify">  Objective of this project is to leverage the abilities of EasyOCR to extract the information from business card, store it in a database for future retreival and usage. Hence, avoiding manual data entry.</div>', unsafe_allow_html=True)
+    st.write('')
+    st.write('')
+    col21, col22 = st.columns([2,8])
+    with col21:
+        st.markdown(':orange[Code available at: ]')
+    with col22:
+        st.markdown('https://github.com/Gururaj008/Business_card_data/')
+    st.divider()
+
+    
     
     # col1008, col1009, col1010 = st.columns([5,130,5])
     # with col1009:
@@ -307,10 +215,6 @@ if __name__ == '__main__':
     st.divider()
 
     
-    
-   
-    
-
     # col18, col19, col20 = st.columns([3,15,3])
     # with col19:
     #     st.subheader(':orange[**Extracting Business card data with OCR**]')
