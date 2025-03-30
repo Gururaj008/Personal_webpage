@@ -5,7 +5,7 @@ st.markdown("""
                     @import url('https://fonts.googleapis.com/css2?family=Agdasima');
                     .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
                     </style>
-                    <p class="custom-text">Developer contact details</p>
+                    <h1 class="custom-text">Developer contact details</h1>
                     """, unsafe_allow_html=True)
 st.divider()
 col301, col302 = st.columns([10,20])
