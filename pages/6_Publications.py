@@ -9,7 +9,7 @@ if __name__ == '__main__':
                     @import url('https://fonts.googleapis.com/css2?family=Agdasima');
                     .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
                     </style>
-                    <p class="custom-text"> Publications </p>
+                    <h1 class="custom-text"> Publications </h1>
                     """, unsafe_allow_html=True)
     st.divider()
     # col101, col102, col103 = st.columns([8,8,8])
