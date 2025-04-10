@@ -16,7 +16,7 @@ if __name__ == '__main__':
 
     # col33, col34, col35 = st.columns([3,100,3])
     # with col34:
-    st.subheader(':orange[**Stackadapt**]')
+    st.subheader(':orange[**Sales KPI analysis**]')
     st.write('')
     st.markdown(
     '''
@@ -30,3 +30,19 @@ if __name__ == '__main__':
     unsafe_allow_html=True
     )
     st.write('')
+
+    st.subheader(':orange[**Effort and Blended Rate Prediction**]')
+    st.write('')
+    st.markdown(
+        '''
+        <div style="text-align: justify">
+            Developed a machine learning model to predict unit effort and blended rate for new projects using historical client data. Extracted raw data from PostgreSQL and performed extensive data cleaning and preprocessing.<br><br>
+            Engineered relevant features and reframed the task as a classification problem to improve modeling effectiveness. Applied SMOTE to handle class imbalance, used grid search for hyperparameter tuning, and implemented ensemble methods to boost model accuracy.<br><br>
+            Evaluated model performance using classification metrics, and leveraged Seaborn and Matplotlib to visualize patterns, highlight key trends, and detect outliers throughout the data pipeline.
+        </div>
+        ''',
+        unsafe_allow_html=True
+    )
+    st.write('')
+
+
