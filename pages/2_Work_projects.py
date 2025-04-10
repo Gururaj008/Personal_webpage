@@ -9,7 +9,7 @@ if __name__ == '__main__':
                     @import url('https://fonts.googleapis.com/css2?family=Agdasima');
                     .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
                     </style>
-                    <h1 class="custom-text"> Data Science projects carried out</h1>
+                    <h1 class="custom-text"> Work related projects </h1>
                     """, unsafe_allow_html=True)
 
 
