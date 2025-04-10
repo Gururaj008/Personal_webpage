@@ -1,77 +1,56 @@
 import streamlit as st
-import webbrowser 
-from PIL import Image
 
-if __name__ == '__main__':
-    st.set_page_config(layout="wide")
-    st.markdown("""
-                    <style>
-                    @import url('https://fonts.googleapis.com/css2?family=Agdasima');
-                    .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px;color:cyan }
-                    </style>
-                    <h1 class="custom-text"> Work related projects </h1>
-                    """, unsafe_allow_html=True)
+st.set_page_config(layout="wide")
 
+# Title of your page
+st.markdown("""
+    <style>
+    @import url('https://fonts.googleapis.com/css2?family=Agdasima');
+    .custom-text { font-family: 'Agdasima', sans-serif; font-size: 45px; color: cyan; }
+    </style>
+    <h1 class="custom-text">Data Science Projects Portfolio</h1>
+    """, unsafe_allow_html=True)
 
+# Example layout: using columns for headings defined in your Excel sheet
+# Adjust the column names and layout as needed according to your Excel structure
 
-    # col33, col34, col35 = st.columns([3,100,3])
-    # with col34:
-    st.subheader(':orange[**Sales KPI analysis**]')
-    st.write('')
+# You might have columns such as: 'Project Title', 'Description', and 'Technologies'
+projects = [
+    {
+        "Project Title": "Sales KPI Analysis",
+        "Description": """
+I conducted an in-depth analysis of CRM sales KPIs to classify representatives into performance tiers, uncover key success factors, and inform coaching strategies that boosted sales effectiveness. Using Pandas for detailed EDA on revenue, customer, and regional retention metrics, I leveraged PostgreSQL for robust data storage and built dynamic Power BI visualizations to communicate actionable insights.
+        """,
+    },
+    {
+        "Project Title": "Effort and Blended Rate Prediction",
+        "Description": """
+Developed a machine learning model to predict unit effort and blended rate for new projects using historical client data. After extracting raw data from PostgreSQL and performing extensive cleaning and feature engineering, I reframed the task as a classification problem. SMOTE, grid search, and ensemble methods were applied to boost accuracy, while Seaborn and Matplotlib visualized key trends and detected outliers.
+        """,
+    },
+    {
+        "Project Title": "RAG-based Chatbot",
+        "Description": """
+Developed a Retrieval-Augmented Generation (RAG) based chatbot to intelligently answer user queries on plans and offers. The solution ingests HTML user data, vectors it for semantic retrieval in Elasticsearch, and employs cosine similarity to fetch the top five relevant chunks. These are then processed by a large language model (LLM) to generate responses with source links, ensuring transparency and trust.
+        """,
+    },
+    {
+        "Project Title": "RAPTOR: AI-Powered Tree-Based Retrieval System",
+        "Description": """
+Spearheaded the development of RAPTOR—a state-of-the-art information retrieval system using hierarchical clustering (GMM) and dimensionality reduction (UMAP) to structure data for optimal search relevance. With iterative summarization, context-aware knowledge extraction, and advanced orchestration using Langchain, RAPTOR significantly enhances decision-making over traditional methods.
+        """,
+    }
+]
+
+# Loop through projects and display them in columns or expanders
+for project in projects:
+    st.markdown(f"### :orange[**{project['Project Title']}**]")
     st.markdown(
-    '''
-    <div style="text-align: justify">
-        I conducted an in-depth analysis of CRM sales KPIs to classify representatives into performance tiers, which helped uncover key success factors and informed targeted coaching strategies that ultimately boosted sales effectiveness.<br><br>
-        Using Pandas, I performed comprehensive Exploratory Data Analysis (EDA) on revenue, customer, and regional retention metrics, ensuring a detailed understanding of performance trends.<br><br>
-        I leveraged PostgreSQL for reliable data storage and built dynamic Power BI visualizations to effectively communicate actionable insights to stakeholders.<br><br>
-        This project enabled me to hone my skills in data munging, data manipulation, statistical analysis, and CRM analytics, while also showcasing my ability to generate and present strategic insights through data visualization.
-    </div>
-    ''',
-    unsafe_allow_html=True
-    )
-    st.write('')
-
-    st.subheader(':orange[**Effort and Blended Rate Prediction**]')
-    st.write('')
-    st.markdown(
-        '''
+        f"""
         <div style="text-align: justify">
-            Developed a machine learning model to predict unit effort and blended rate for new projects using historical client data. Extracted raw data from PostgreSQL and performed extensive data cleaning and preprocessing.<br><br>
-            Engineered relevant features and reframed the task as a classification problem to improve modeling effectiveness. Applied SMOTE to handle class imbalance, used grid search for hyperparameter tuning, and implemented ensemble methods to boost model accuracy.<br><br>
-            Evaluated model performance using classification metrics, and leveraged Seaborn and Matplotlib to visualize patterns, highlight key trends, and detect outliers throughout the data pipeline.
+            {project['Description'].strip()}
         </div>
-        ''',
+        """,
         unsafe_allow_html=True
     )
-    st.write('')
-
-st.subheader(':orange[**RAG-based Chatbot**]')
-st.write('')
-st.markdown(
-    '''
-    <div style="text-align: justify">
-        Developed a Retrieval-Augmented Generation (RAG) based chatbot to intelligently answer user queries related to plans and offers. The solution starts by ingesting HTML user data through a specialized LLM ingestion service, followed by chunking and vectorizing the content for semantic retrieval. These vectorized chunks are then stored in Elasticsearch for efficient similarity search.<br><br>
-        The chatbot was designed to support both Google Cloud and API-based deployment scenarios, ensuring scalability and integration flexibility. When a user submits a query, the system calculates cosine similarity to retrieve the top five most relevant chunks of information.<br><br>
-        These chunks are passed to a large language model (LLM), which generates grounded responses supported by links to the original source documents — enhancing transparency, trust, and user experience. This end-to-end solution leveraged techniques in generative AI, natural language processing, prompt engineering, and chatbot development.
-    </div>
-    ''',
-    unsafe_allow_html=True
-)
-st.write('')
-
-st.subheader(':orange[**RAPTOR: AI-Powered Tree-Based Retrieval System**]')
-st.write('')
-st.markdown(
-    '''
-    <div style="text-align: justify">
-        Spearheaded the implementation of RAPTOR—a state-of-the-art, tree-based information retrieval system designed to outperform traditional RAG approaches. The system integrates hierarchical clustering algorithms (GMM) and dimensionality reduction techniques like UMAP to structure data into an optimized and highly relevant retrieval pipeline.<br><br>
-        Leveraging iterative summarization and context-aware knowledge extraction, RAPTOR enhances both search relevance and question-answering accuracy. Bayesian Information Criterion (BIC) was used for optimal model selection during clustering, while PGvector was employed for scalable vector storage.<br><br>
-        The pipeline was orchestrated using Langchain to streamline component integration and improve interpretability. This innovative architecture delivers an AI-powered search experience tailored for advanced decision-making scenarios.
-    </div>
-    ''',
-    unsafe_allow_html=True
-)
-st.write('')
-
-
-
+    st.write('---')  # Separator between projects
