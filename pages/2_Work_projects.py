@@ -36,7 +36,7 @@ st.markdown("""
         }
     </style>
     
-    <h1 class="custom-title">Data Science Projects Portfolio</h1>
+    <h1 class="custom-title"> Work related projects </h1>
 """, unsafe_allow_html=True)
 
 # 1) Sales KPI Analysis
