@@ -22,7 +22,7 @@ if __name__ == '__main__':
     '''
     <div style="text-align: justify">
         I conducted an in-depth analysis of CRM sales KPIs to classify representatives into performance tiers, which helped uncover key success factors and informed targeted coaching strategies that ultimately boosted sales effectiveness.<br><br>
-        Using Pandas, I performed comprehensive exploratory data analysis (EDA) on revenue, customer, and regional retention metrics, ensuring a detailed understanding of performance trends.<br><br>
+        Using Pandas, I performed comprehensive Exploratory Data Analysis (EDA) on revenue, customer, and regional retention metrics, ensuring a detailed understanding of performance trends.<br><br>
         I leveraged PostgreSQL for reliable data storage and built dynamic Power BI visualizations to effectively communicate actionable insights to stakeholders.<br><br>
         This project enabled me to hone my skills in data munging, data manipulation, statistical analysis, and CRM analytics, while also showcasing my ability to generate and present strategic insights through data visualization.
     </div>
@@ -50,7 +50,7 @@ st.write('')
 st.markdown(
     '''
     <div style="text-align: justify">
-        Developed a Retrieval-Augmented Generation (RAG) based chatbot for Verizon to intelligently answer user queries related to plans and offers. The solution starts by ingesting HTML user data through a specialized LLM ingestion service, followed by chunking and vectorizing the content for semantic retrieval. These vectorized chunks are then stored in Elasticsearch for efficient similarity search.<br><br>
+        Developed a Retrieval-Augmented Generation (RAG) based chatbot to intelligently answer user queries related to plans and offers. The solution starts by ingesting HTML user data through a specialized LLM ingestion service, followed by chunking and vectorizing the content for semantic retrieval. These vectorized chunks are then stored in Elasticsearch for efficient similarity search.<br><br>
         The chatbot was designed to support both Google Cloud and API-based deployment scenarios, ensuring scalability and integration flexibility. When a user submits a query, the system calculates cosine similarity to retrieve the top five most relevant chunks of information.<br><br>
         These chunks are passed to a large language model (LLM), which generates grounded responses supported by links to the original source documents — enhancing transparency, trust, and user experience. This end-to-end solution leveraged techniques in generative AI, natural language processing, prompt engineering, and chatbot development.
     </div>
