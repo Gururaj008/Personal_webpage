@@ -45,4 +45,18 @@ if __name__ == '__main__':
     )
     st.write('')
 
+st.subheader(':orange[**RAG-based Chatbot**]')
+st.write('')
+st.markdown(
+    '''
+    <div style="text-align: justify">
+        Developed a Retrieval-Augmented Generation (RAG) based chatbot for Verizon to intelligently answer user queries related to plans and offers. The solution starts by ingesting HTML user data through a specialized LLM ingestion service, followed by chunking and vectorizing the content for semantic retrieval. These vectorized chunks are then stored in Elasticsearch for efficient similarity search.<br><br>
+        The chatbot was designed to support both Google Cloud and API-based deployment scenarios, ensuring scalability and integration flexibility. When a user submits a query, the system calculates cosine similarity to retrieve the top five most relevant chunks of information.<br><br>
+        These chunks are passed to a large language model (LLM), which generates grounded responses supported by links to the original source documents — enhancing transparency, trust, and user experience. This end-to-end solution leveraged techniques in generative AI, natural language processing, prompt engineering, and chatbot development.
+    </div>
+    ''',
+    unsafe_allow_html=True
+)
+st.write('')
+
 
