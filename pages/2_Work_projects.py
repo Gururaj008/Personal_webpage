@@ -59,4 +59,19 @@ st.markdown(
 )
 st.write('')
 
+st.subheader(':orange[**RAPTOR: AI-Powered Tree-Based Retrieval System**]')
+st.write('')
+st.markdown(
+    '''
+    <div style="text-align: justify">
+        Spearheaded the implementation of RAPTOR—a state-of-the-art, tree-based information retrieval system designed to outperform traditional RAG approaches. The system integrates hierarchical clustering algorithms (GMM), SBERT-based text embeddings, and dimensionality reduction techniques like UMAP to structure data into an optimized and highly relevant retrieval pipeline.<br><br>
+        Leveraging iterative summarization and context-aware knowledge extraction, RAPTOR enhances both search relevance and question-answering accuracy. Bayesian Information Criterion (BIC) was used for optimal model selection during clustering, while PGvector was employed for scalable vector storage.<br><br>
+        The pipeline was orchestrated using Langchain to streamline component integration and improve interpretability. This innovative architecture delivers an AI-powered search experience tailored for advanced decision-making scenarios.
+    </div>
+    ''',
+    unsafe_allow_html=True
+)
+st.write('')
+
+
 
