@@ -89,8 +89,8 @@ if __name__ == '__main__':
         - Converted the prediction problem into a classification task for better outcome control.<br>
         - Extracted raw data from PostgreSQL and conducted extensive data cleaning, standardization, and feature engineering.<br>
         - Balanced the dataset using SMOTE to address class imbalance.<br>
-        - Utilized grid search to determine optimal model parameters and built an ensemble model to improve accuracy.<br><br>
-        - Data visualizations with Seaborn and Matplotlib were employed to highlight trends and detect outliers.
+        - Utilized grid search to determine optimal model parameters and built an ensemble model to improve accuracy
+        - Data visualizations with Seaborn and Matplotlib were employed to highlight trends and detect outliers..<br><br>
     </div>
     <div class="section-content">
         <span class="section-header">Results:</span><br>
@@ -122,8 +122,8 @@ if __name__ == '__main__':
         - Converted HTML data into CSV to preserve hierarchical table structures containing the necessary details.<br>
         - Created manageable chunks from the CSV and generated text embeddings along with associated metadata.<br>
         - Ingested the vectorized chunks into a VectorStore for efficient hybrid search (combining keyword and semantic approaches).<br>
-        - On user query, employed cosine similarity to select the top 5 relevant chunks, which were then passed to an LLM to generate responses with supporting source links.<br><br>
-        - The end-to-end pipeline leverages Generative AI, Natural Language Processing, and prompt engineering for accurate and transparent responses.
+        - On user query, employed cosine similarity to select the top 5 relevant chunks, which were then passed to an LLM to generate responses with supporting source links.
+        - The end-to-end pipeline leverages Generative AI, Natural Language Processing, and prompt engineering for accurate and transparent responses.<br><br>
     </div>
     <div class="section-content">
         <span class="section-header">Results:</span><br>
